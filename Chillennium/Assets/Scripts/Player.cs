@@ -21,7 +21,9 @@ public class Player : MonoBehaviour
     private float timeDashStarted = 0;
     private float dashX;
     private float dashY;
-    private bool slowed = false;
+    public bool slowed = false;
+    private float lastMovedX = 0;
+    private float lastMovedY = 0;
 
     float angle;
 
@@ -40,6 +42,11 @@ public class Player : MonoBehaviour
         {
             transform.position += Vector3.right * speed * xAxis * Time.deltaTime;
             transform.position += Vector3.up * speed * yAxis * Time.deltaTime;
+            if(Mathf.Abs(xAxis) > 0 || Mathf.Abs(yAxis) > 0)
+            {
+                lastMovedX = xAxis;
+                lastMovedY = yAxis;
+            }
         }
         if(Mathf.Abs(xAxis) > Mathf.Abs(yAxis))
         {
@@ -92,8 +99,8 @@ public class Player : MonoBehaviour
         {
             dashing = true;
             canDash = false;
-            dashX = xAxis;
-            dashY = yAxis;
+            dashX = lastMovedX;
+            dashY = lastMovedY;
             timeDashStarted = Time.time;
         }
         if(dashing && Time.time - dashLength < timeDashStarted)
