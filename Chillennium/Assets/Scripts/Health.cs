@@ -25,9 +25,11 @@ public class Health : MonoBehaviour
         }
     }
 
-    public int getHealthPercent()
+    public float getHealthPercent()
     {
-        return health / maxHealth;
+        float hp = health;
+        float maxHp = maxHealth;
+        return hp / maxHp;
     }
 
     public void takeDamage(int damage, float knockback_str = 0f, Vector2 knockback_dir = new Vector2())
