@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] float dashSpeed = 5f;
     [SerializeField] float dashLength = .25f;
     [SerializeField] float dashCoolDown = .1f;
+    public int damageDealt = 1;
     [SerializeField] BoxCollider2D HBoxUp;
     [SerializeField] BoxCollider2D HBoxDown;
     [SerializeField] BoxCollider2D HBoxLeft;
@@ -136,12 +137,12 @@ public class Player : MonoBehaviour
         isAttacking = false;
     }
 
-    IEnumerator dash(float x, float y)
+    public void dead()
     {
-        transform.position += Vector3.right * speed * x * Time.deltaTime;
-        yield return new WaitForSeconds(.25f);
+        print("YOU DIED");
     }
 
+    /*
     void OnGUI()
     {
         //Output the angle found above
@@ -171,5 +172,5 @@ public class Player : MonoBehaviour
 
 
         GUI.Label(new Rect(25, 100, 300, 40), "Angle Between Objects: " + angle.ToString());
-    }
+    }*/
 }
