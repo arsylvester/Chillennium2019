@@ -14,17 +14,22 @@ public class Owl : MonoBehaviour
     [SerializeField] float strikeDelay = .5f;
     [SerializeField] float timeBetweenAttacks = 2f;
     [SerializeField] float featherThrowDelay = .1f;
+    [SerializeField] float dazedTime = 2f;
     [SerializeField] GameObject normalBody;
     [SerializeField] GameObject attackBody;
     [SerializeField] GameObject attackBox;
+    [SerializeField] GameObject weakPoint;
+    private bool inPitFall = false;
     private bool attacking = false;
     private Player player;
+    private Health hp;
 
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<Player>();
         attacking = false;
+        hp = GetComponent<Health>();
         StartCoroutine(featherAttack());
     }
 
@@ -87,16 +92,42 @@ public class Owl : MonoBehaviour
         attackBox.SetActive(true);
         yield return new WaitForSecondsRealtime(.1f);
         attacking = false;
-        normalBody.SetActive(true);
-        attackBody.SetActive(false);
         attackBox.SetActive(false);
+        if (inPitFall)
+        {
+            weakPoint.SetActive(true);
+            float currentHp = hp.getHealthPercent();
+            while (!thirdDamage(currentHp))
+            {
+                yield return new WaitForEndOfFrame();
+            }
+            weakPoint.SetActive(false);
+            inPitFall = false;
+        }
+        normalBody.SetActive(true);
+        attackBody.SetActive(false); 
         yield return new WaitForSeconds(timeBetweenAttacks);
         attackDetection.SetActive(true);
         StartCoroutine(featherAttack());
     }
 
+    private bool thirdDamage(float currHP)
+    {
+        if(currHP - hp.getHealthPercent() >= .33f)
+        {
+            return true;
+        }
+        return false;
+    }
+
     public void dead()
     {
+        Destroy(gameObject);
+    }
 
+    public void hitPitFall()
+    {
+        print("Pitfall hit.");
+        inPitFall = true;
     }
 }
