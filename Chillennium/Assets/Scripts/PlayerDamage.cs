@@ -11,7 +11,7 @@ public class PlayerDamage : MonoBehaviour
         if (target)
         {
             print("hit target");
-            target.takeDamge(GetComponentInParent<Player>().damageDealt);
+            target.takeDamage(GetComponentInParent<Player>().damageDealt);
         }
     }
 

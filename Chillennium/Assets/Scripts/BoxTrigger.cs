@@ -7,18 +7,26 @@ public class BoxTrigger : MonoBehaviour
 {
     BoxCollider2D m_col;
     private bool collided;
+    private int num_collided = 0;
 
-    public void OnTriggerStay(Collider other)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (!other.CompareTag("Rock"))
+        if (!collision.CompareTag("Rock"))
         {
             collided = true;
+            num_collided += 1;
         }
     }
-
-    public void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        collided = false;
+        if (!collision.CompareTag("Rock"))
+        {
+            num_collided -= 1;
+            if (num_collided == 0)
+            {
+                collided = false;
+            }
+        }
     }
 
     public bool getCollided()
