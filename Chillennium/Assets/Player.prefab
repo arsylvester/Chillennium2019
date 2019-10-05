@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 3529713260361100000}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,6 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  m_invincibility_time: 0.3
 --- !u!61 &3529713260361100003
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -570,8 +570,8 @@ GameObject:
   m_Component:
   - component: {fileID: 866885523729419860}
   - component: {fileID: 866885523729419861}
-  - component: {fileID: 866885523729419863}
   - component: {fileID: 866885523729419862}
+  - component: {fileID: 5540820235698081565}
   m_Layer: 0
   m_Name: Snail
   m_TagString: Untagged
@@ -619,29 +619,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &866885523729419863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866885523729419866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a23fdd1b8fa8e7d44b19c062e156f06b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  turnCoolDown: 0.5
-  slimeSpawnRate: 0.25
-  strikeDelay: 2
-  timeBetweenAttacks: 2
-  normalBody: {fileID: 866885522420223285}
-  attackTrigger: {fileID: 866885522100455417}
-  attackBody: {fileID: 866885522692689534}
-  slimeSpawner: {fileID: 866885522088247253}
-  slime: {fileID: 6340690261484295998, guid: a6bb7780efbbb4c48a3f6a1093a9aa23, type: 3}
-  attackBox: {fileID: 866885523090308721}
 --- !u!114 &866885523729419862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,3 +632,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  m_invincibility_time: 0
+--- !u!114 &5540820235698081565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866885523729419866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a23fdd1b8fa8e7d44b19c062e156f06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  turnCoolDown: 0.5
+  slimeSpawnRate: 0.35
+  strikeDelay: 2
+  timeBetweenAttacks: 2
+  normalBody: {fileID: 866885522420223285}
+  attackTrigger: {fileID: 866885522100455417}
+  attackBody: {fileID: 866885522692689534}
+  slimeSpawner: {fileID: 866885522088247253}
+  slime: {fileID: 6340690261484295998, guid: a6bb7780efbbb4c48a3f6a1093a9aa23, type: 3}
+  attackBox: {fileID: 866885523090308721}
