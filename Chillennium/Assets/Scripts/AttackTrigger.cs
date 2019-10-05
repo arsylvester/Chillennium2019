@@ -9,6 +9,7 @@ public class AttackTrigger : MonoBehaviour
         Player player = collision.GetComponent<Player>();
         if (player)
         {
+            print("attacking player.");
             SendMessageUpwards("attack");
         }
     }

@@ -1264,8 +1264,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7036624387401046139}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.74, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0, y: -1.61, z: 0}
+  m_LocalScale: {x: 2, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 7036624387898353758}
   m_RootOrder: 3
@@ -1347,8 +1347,16 @@ MonoBehaviour:
   featherPointOne: {fileID: 2062230422}
   featherPointTwo: {fileID: 299458705}
   flyBackSpeed: 3
+  approachPlayerSpeed: 0.5
   feather: {fileID: 5959952116825777190, guid: 3fac095f912cc7b44bcc9bc26f66586b, type: 3}
   throwFeatherSpawn: {fileID: 2067872297}
+  attackDetection: {fileID: 7036624386276729331}
+  strikeDelay: 0.5
+  timeBetweenAttacks: 0.5
+  featherThrowDelay: 0.1
+  normalBody: {fileID: 7036624387261557567}
+  attackBody: {fileID: 7036624387006326900}
+  attackBox: {fileID: 7036624387401046139}
 --- !u!114 &7036624387898353756
 MonoBehaviour:
   m_ObjectHideFlags: 0
