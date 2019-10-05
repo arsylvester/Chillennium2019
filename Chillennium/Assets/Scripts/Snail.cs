@@ -10,6 +10,7 @@ public class Snail : MonoBehaviour
     [SerializeField] GameObject verticalAlignment;
     private Player player;
     private float timeOfLastTurn;
+    private Player.Direction direction = Player.Direction.Down;
 
     // Start is called before the first frame update
     void Start()
@@ -28,20 +29,38 @@ public class Snail : MonoBehaviour
                 verticalAlignment.SetActive(false);
                 horizontalAlignment.SetActive(true);
                 if (displacemnetVector.x > 0)
-                    transform.position += Vector3.right * speed * Time.deltaTime;
+                    direction = Player.Direction.Right;
                 else
-                    transform.position += Vector3.left * speed * Time.deltaTime;
+                    direction = Player.Direction.Left;
             }
             else
             {
                 verticalAlignment.SetActive(true);
                 horizontalAlignment.SetActive(false);
                 if (displacemnetVector.y > 0)
-                    transform.position += Vector3.up * speed * Time.deltaTime;
+                    direction = Player.Direction.Up;
                 else
-                    transform.position += Vector3.down * speed * Time.deltaTime;
+                    direction = Player.Direction.Down;
             }
             timeOfLastTurn = Time.time;
+        }
+
+        switch (direction)
+        {
+            case Player.Direction.Up:
+                transform.position += Vector3.up * speed * Time.deltaTime;
+                break;
+            case Player.Direction.Down:
+                transform.position += Vector3.down * speed * Time.deltaTime;
+                break;
+            case Player.Direction.Left:
+                transform.position += Vector3.left * speed * Time.deltaTime;
+                break;
+            case Player.Direction.Right:
+                transform.position += Vector3.right * speed * Time.deltaTime;
+                break;
+            default:
+                break;
         }
     }
 }
