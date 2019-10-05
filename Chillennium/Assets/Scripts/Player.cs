@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     private float timeDashStarted = 0;
     private float dashX;
     private float dashY;
-    private bool slowed = false;
+    public bool slowed = false;
     private float lastMovedX = 0;
     private float lastMovedY = 0;
 

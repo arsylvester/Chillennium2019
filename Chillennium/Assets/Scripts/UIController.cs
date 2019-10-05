@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     [SerializeField] Image healthBar;
+    [SerializeField] Image bossHealth;
+    [SerializeField] Health boss;
     private Player player;
     // Start is called before the first frame update
     void Start()
@@ -17,5 +19,6 @@ public class UIController : MonoBehaviour
     void Update()
     {
         healthBar.fillAmount = player.GetComponent<Health>().getHealthPercent();
+        bossHealth.fillAmount = boss.getHealthPercent();
     }
 }

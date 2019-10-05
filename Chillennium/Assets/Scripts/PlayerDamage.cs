@@ -6,11 +6,10 @@ public class PlayerDamage : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("collided with " + collision);
-        Health target = collision.GetComponent<Health>();
-        if (target)
+        print("Player hit " + collision);
+        if (collision.CompareTag("WeakPoint"))// || collision.CompareTag("Rock"))
         {
-            print("hit target");
+            Health target = collision.GetComponentInParent<Health>();
             target.takeDamge(GetComponentInParent<Player>().damageDealt);
         }
     }

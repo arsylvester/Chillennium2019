@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] int maxHealth;
-    private int health;
+    [SerializeField] float maxHealth;
+    private float health;
 
     // Start is called before the first frame update
     void Start()
@@ -13,7 +13,7 @@ public class Health : MonoBehaviour
         health = maxHealth;
     }
     
-    public int getHealthPercent()
+    public float getHealthPercent()
     {
         return health / maxHealth;
     }
