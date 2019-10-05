@@ -16,11 +16,12 @@ public class Player : MonoBehaviour
     public enum Direction {Up, Down, Left, Right}
     public Direction direct = Direction.Right;
     private bool isAttacking = false;
-    private bool dashing = false;
+    public bool dashing = false;
     private bool canDash = true;
     private float timeDashStarted = 0;
     private float dashX;
     private float dashY;
+    private bool slowed = false;
 
     float angle;
 
@@ -105,7 +106,7 @@ public class Player : MonoBehaviour
         {
             dashing = false;
         }
-        if(Time.time - dashLength - dashCoolDown > timeDashStarted)
+        if(Time.time - dashLength - dashCoolDown > timeDashStarted && !slowed)
         {
             canDash = true;
         }
@@ -140,6 +141,19 @@ public class Player : MonoBehaviour
     public void dead()
     {
         print("YOU DIED");
+    }
+
+    public IEnumerator slowPlayer(float slowTime, float speedReduction)
+    {
+        print("Player Slowed");
+        float oldSpeed = speed;
+        speed *= speedReduction;
+        canDash = false;
+        slowed = true;
+        yield return new WaitForSecondsRealtime(slowTime);
+        speed = oldSpeed;
+        canDash = true;
+        slowed = false;
     }
 
     /*
