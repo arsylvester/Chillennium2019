@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 3529713260361100000}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,6 +224,7 @@ MonoBehaviour:
   HBoxLeft: {fileID: 3529713261002587599}
   HBoxRight: {fileID: 3529713259182504471}
   direct: 3
+  dashing: 0
 --- !u!114 &7796540155616544978
 MonoBehaviour:
   m_ObjectHideFlags: 0
