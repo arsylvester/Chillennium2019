@@ -13,9 +13,9 @@ public class Health : MonoBehaviour
         health = maxHealth;
     }
     
-    public int getHealth()
+    public int getHealthPercent()
     {
-        return health;
+        return health / maxHealth;
     }
 
     public void takeDamge(int damage)
