@@ -10,7 +10,7 @@ public class PlayerDamage : MonoBehaviour
         if (collision.CompareTag("WeakPoint"))// || collision.CompareTag("Rock"))
         {
             Health target = collision.GetComponentInParent<Health>();
-            target.takeDamage(GetComponentInParent<Player>().damageDealt);
+            target.takeDamage(GetComponentInParent<Player>().damageDealt, 0, new Vector2(0,0));
         }
     }
 
