@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Anim Testing/Snail Test.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/ABH_Test.unity
+=======
+- path: Assets/Snail Test.unity
+>>>>>>> master
+>>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0
