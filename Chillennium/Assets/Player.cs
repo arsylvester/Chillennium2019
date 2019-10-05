@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     [SerializeField] BoxCollider2D HBoxLeft;
     [SerializeField] BoxCollider2D HBoxRight;
 
+    float angle;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +56,27 @@ public class Player : MonoBehaviour
     void OnGUI()
     {
         //Output the angle found above
-        GUI.Label(new Rect(25, 25, 200, 40), "Angle Between Objects" + Vector2.SignedAngle(transform.right, Input.mousePosition));
+        Vector2 screenPlayerPos = Camera.main.WorldToScreenPoint(transform.position);
+        Vector2 mousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        Vector2 relativeMousePos = new Vector2(mousePos.x - screenPlayerPos.x, mousePos.y - screenPlayerPos.y);
+
+        GUI.Label(new Rect(25, 20, 300, 40), "Player Position: " + screenPlayerPos.ToString());
+        GUI.Label(new Rect(25, 60, 300, 40), "Mouse Position: " + mousePos.ToString());
+
+        angle = Mathf.Rad2Deg * Mathf.Atan((mousePos.y - screenPlayerPos.y) / (mousePos.x - screenPlayerPos.x));
+
+        if (mousePos.x < screenPlayerPos.x)
+        {
+            if (mousePos.y > screenPlayerPos.y)
+            {
+                angle += 180;
+            }
+            else
+            {
+                angle -= 180;
+            }
+        }
+
+        GUI.Label(new Rect(25, 100, 300, 40), "Angle Between Objects: " + angle.ToString());
     }
 }
