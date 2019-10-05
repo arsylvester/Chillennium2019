@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] float dashSpeed = 5f;
     [SerializeField] float dashLength = .25f;
     [SerializeField] float dashCoolDown = .1f;
+    public int damageDealt = 1;
     [SerializeField] BoxCollider2D HBoxUp;
     [SerializeField] BoxCollider2D HBoxDown;
     [SerializeField] BoxCollider2D HBoxLeft;
@@ -15,11 +16,12 @@ public class Player : MonoBehaviour
     public enum Direction {Up, Down, Left, Right}
     public Direction direct = Direction.Right;
     private bool isAttacking = false;
-    private bool dashing = false;
+    public bool dashing = false;
     private bool canDash = true;
     private float timeDashStarted = 0;
     private float dashX;
     private float dashY;
+    private bool slowed = false;
 
     float angle;
 
@@ -104,7 +106,7 @@ public class Player : MonoBehaviour
         {
             dashing = false;
         }
-        if(Time.time - dashLength - dashCoolDown > timeDashStarted)
+        if(Time.time - dashLength - dashCoolDown > timeDashStarted && !slowed)
         {
             canDash = true;
         }
@@ -136,12 +138,25 @@ public class Player : MonoBehaviour
         isAttacking = false;
     }
 
-    IEnumerator dash(float x, float y)
+    public void dead()
     {
-        transform.position += Vector3.right * speed * x * Time.deltaTime;
-        yield return new WaitForSeconds(.25f);
+        print("YOU DIED");
     }
 
+    public IEnumerator slowPlayer(float slowTime, float speedReduction)
+    {
+        print("Player Slowed");
+        float oldSpeed = speed;
+        speed *= speedReduction;
+        canDash = false;
+        slowed = true;
+        yield return new WaitForSecondsRealtime(slowTime);
+        speed = oldSpeed;
+        canDash = true;
+        slowed = false;
+    }
+
+    /*
     void OnGUI()
     {
         //Output the angle found above
@@ -171,5 +186,5 @@ public class Player : MonoBehaviour
 
 
         GUI.Label(new Rect(25, 100, 300, 40), "Angle Between Objects: " + angle.ToString());
-    }
+    }*/
 }
