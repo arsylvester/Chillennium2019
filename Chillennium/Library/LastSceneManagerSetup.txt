@@ -1,5 +1,21 @@
 sceneSetups:
-- path: Assets/Scenes/Snail Testing.unity
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- path: Assets/Anim Testing/Snail Test.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/ABH_Test.unity
+=======
+- path: Assets/Snail Test.unity
+>>>>>>> master
+>>>>>>> master
+=======
+- path: Assets/Scenes/ABH_Test.unity
+>>>>>>> Bond-Harris
+=======
+- path: Assets/Scenes/Owl Testing.unity
+>>>>>>> Sylvester
   isLoaded: 1
   isActive: 1
   isSubScene: 0

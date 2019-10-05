@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     [SerializeField] float dashSpeed = 5f;
     [SerializeField] float dashLength = .25f;
     [SerializeField] float dashCoolDown = .1f;
+    [SerializeField] float knockbackDamping = .1f;
+    public int damageDealt = 1;
     [SerializeField] BoxCollider2D HBoxUp;
     [SerializeField] BoxCollider2D HBoxDown;
     [SerializeField] BoxCollider2D HBoxLeft;
@@ -27,12 +29,13 @@ public class Player : MonoBehaviour
     private float dashY;
     private float lastMovedX = 0;
     private float lastMovedY = 0;
+    private Rigidbody2D rb;
     private float angle;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -120,22 +123,11 @@ public class Player : MonoBehaviour
         {
             canDash = true;
         }
-
-        if (Input.GetKey(KeyCode.A))
+        
+        if(Mathf.Abs(rb.velocity.x) > 0f || Mathf.Abs(rb.velocity.y) > 0f)
         {
-            transform.position += Vector3.left * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.position += Vector3.right * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.position += Vector3.up * speed * Time.deltaTime;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.position += Vector3.down * speed * Time.deltaTime;
+            rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, knockbackDamping);
+            //rb.velocity -= Vector2.one * 10 *Time.deltaTime;
         }
     }
 
