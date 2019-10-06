@@ -1,5 +1,6 @@
-Base path: 'C:/Program Files/Unity/Hub/Editor/2019.2.7f2/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.2.7f2/Editor/Data/PlaybackEngines'
+Base path: 'D:/Program Files/Unity/Editor/2019.2.7f2/Editor/Data', plugins path 'D:/Program Files/Unity/Editor/2019.2.7f2/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Cmd: compileSnippet
@@ -10,3 +11,5 @@ Cmd: compileSnippet
 >>>>>>> Meyer
 =======
 >>>>>>> Sylvester
+=======
+>>>>>>> Meyer
