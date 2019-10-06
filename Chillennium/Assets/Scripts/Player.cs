@@ -20,8 +20,8 @@ public class Player : MonoBehaviour
     public Animator anim;
     public bool dashing = false;
     public bool slowed = false;
+    public bool isAttacking = false;
 
-    private bool isAttacking = false;
     private bool canDash = true;
     private float timeDashStarted = 0;
     private float dashX;
