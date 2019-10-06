@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/ABH_Test.unity
 =======
 - path: Assets/Scenes/Cameron Testing.unity
 >>>>>>> Meyer
+=======
+- path: Assets/Anim Testing/Snail Test.unity
+>>>>>>> Kayden
   isLoaded: 1
   isActive: 1
   isSubScene: 0
