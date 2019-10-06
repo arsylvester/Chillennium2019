@@ -9,6 +9,7 @@ public class SnakeHead : MonoBehaviour
     [SerializeField] GameObject hitBox;
     [SerializeField] GameObject weakPoint;
     [SerializeField] float dazzedTime = 1f;
+    [SerializeField] GameObject egg;
     Animator headAnimator;
     AnimatorClipInfo[] m_clipInfo;
     float m_clip_length;
@@ -84,6 +85,7 @@ public class SnakeHead : MonoBehaviour
 
     public void dead()
     {
+        Instantiate(egg);
         Destroy(gameObject);
     }
 }

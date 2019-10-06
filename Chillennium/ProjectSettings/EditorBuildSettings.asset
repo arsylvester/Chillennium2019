@@ -4,18 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
   m_Scenes: []
-=======
-  m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Test_Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/Test_Scenes/ABH_Test.unity
-    guid: ef35aa983a9393c4f80bcfc1b7781d17
-  - enabled: 1
-    path: Assets/Scenes/LevelOne.unity
-    guid: f826fb6ac0369ed44aac461bcc9e81f6
->>>>>>> Bond-Harris
   m_configObjects: {}
