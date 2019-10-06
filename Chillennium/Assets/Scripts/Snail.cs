@@ -15,6 +15,7 @@ public class Snail : MonoBehaviour
     [SerializeField] GameObject slimeSpawner;
     [SerializeField] GameObject slime;
     [SerializeField] GameObject attackBox;
+    [SerializeField] Animator m_snail_anim;
     private Player player;
     private float timeOfLastTurn;
     private Player.Direction direction = Player.Direction.Down;
@@ -105,6 +106,7 @@ public class Snail : MonoBehaviour
         normalBody.SetActive(false);
         attackTrigger.SetActive(false);
         attackBody.SetActive(true);
+        m_snail_anim.SetBool("IsAttacking", true);
         StartCoroutine(strike());
     }
     
@@ -117,6 +119,7 @@ public class Snail : MonoBehaviour
         normalBody.SetActive(true);
         attackBody.SetActive(false);
         attackBox.SetActive(false);
+        m_snail_anim.SetBool("IsAttacking", false);
         yield return new WaitForSeconds(timeBetweenAttacks);
         attackTrigger.SetActive(true);
     }

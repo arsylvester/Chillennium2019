@@ -17,6 +17,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 43.2
     width: 1536
@@ -29,12 +30,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Bond-Harris
     x: 8
     y: 51
     width: 1904
     height: 1021
   m_ShowMode: 4
   m_Title: 
+<<<<<<< HEAD
   m_RootView: {fileID: 6}
 <<<<<<< HEAD
   m_MinSize: {x: 950, y: 544}
@@ -65,8 +69,63 @@ MonoBehaviour:
   m_RootView: {fileID: 6}
   m_MinSize: {x: 950, y: 394}
 >>>>>>> Kayden
+=======
+  m_RootView: {fileID: 8}
+  m_MinSize: {x: 950, y: 644}
+>>>>>>> Bond-Harris
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 391
+    width: 1142
+    height: 196
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 376
+    y: 0
+    width: 1142
+    height: 587
+  m_MinSize: {x: 204, y: 322}
+  m_MaxSize: {x: 4004, y: 8022}
+  vertical: 1
+  controlID: 9428
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -79,12 +138,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 11}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,11 +158,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Bond-Harris
     width: 1904
     height: 971
-  m_MinSize: {x: 683, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
+  m_MinSize: {x: 681, y: 594}
+  m_MaxSize: {x: 14002, y: 18044}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 55
@@ -137,6 +200,10 @@ MonoBehaviour:
   controlID: 89
 >>>>>>> Kayden
 --- !u!114 &3
+=======
+  controlID: 53
+--- !u!114 &5
+>>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,15 +221,19 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1204
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> Bond-Harris
 =======
 >>>>>>> Bond-Harris
     x: 1518
     y: 0
     width: 386
     height: 971
+<<<<<<< HEAD
   m_MinSize: {x: 277, y: 72}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 15}
@@ -190,18 +261,16 @@ MonoBehaviour:
 =======
     width: 277
     height: 628
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
->>>>>>> Sylvester
-  m_Panes:
-  - {fileID: 16}
->>>>>>> master
 =======
 >>>>>>> Bond-Harris
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &4
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -218,6 +287,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,14 +314,18 @@ MonoBehaviour:
     width: 248
     height: 394
 >>>>>>> Kayden
+=======
+    width: 376
+    height: 587
+>>>>>>> Bond-Harris
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &5
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -271,6 +345,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 460
     width: 1204
     height: 271
@@ -281,12 +356,14 @@ MonoBehaviour:
 <<<<<<< HEAD
     y: 519
 =======
-    y: 587
+=======
 >>>>>>> Bond-Harris
+    y: 587
     width: 1518
     height: 384
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
+<<<<<<< HEAD
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -313,11 +390,15 @@ MonoBehaviour:
   - {fileID: 12}
 <<<<<<< HEAD
 <<<<<<< HEAD
-  m_Selected: 0
-  m_LastSelected: 2
 =======
-  m_Selected: 2
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 22}
+>>>>>>> Bond-Harris
+  m_Selected: 0
   m_LastSelected: 1
+<<<<<<< HEAD
 >>>>>>> master
 =======
   m_LastSelected: 1
@@ -343,6 +424,9 @@ MonoBehaviour:
   m_LastSelected: 0
 >>>>>>> Kayden
 --- !u!114 &6
+=======
+--- !u!114 &8
+>>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -355,13 +439,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 9}
+  - {fileID: 4}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -389,8 +474,13 @@ MonoBehaviour:
     height: 678
   m_MinSize: {x: 950, y: 394}
 >>>>>>> Kayden
+=======
+    width: 1904
+    height: 1021
+  m_MinSize: {x: 950, y: 644}
+>>>>>>> Bond-Harris
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &7
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -410,6 +500,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1536
 =======
 <<<<<<< HEAD
@@ -424,11 +515,14 @@ MonoBehaviour:
 =======
     width: 1280
 >>>>>>> Kayden
+=======
+    width: 1904
+>>>>>>> Bond-Harris
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -444,6 +538,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,10 +561,14 @@ MonoBehaviour:
     y: 658
     width: 1280
 >>>>>>> Kayden
+=======
+    y: 1001
+    width: 1904
+>>>>>>> Bond-Harris
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -482,12 +581,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
+  - {fileID: 12}
+  - {fileID: 7}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -501,20 +601,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Bond-Harris
     width: 1518
     height: 971
-  m_MinSize: {x: 406, y: 494}
-  m_MaxSize: {x: 10002, y: 14044}
+  m_MinSize: {x: 406, y: 594}
+  m_MaxSize: {x: 10002, y: 18044}
   vertical: 1
 <<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 14
-=======
-    width: 1003
-    height: 628
-  m_MinSize: {x: 406, y: 344}
-  m_MaxSize: {x: 8006, y: 8044}
-  vertical: 1
   controlID: 58
 <<<<<<< HEAD
 >>>>>>> master
@@ -536,6 +630,10 @@ MonoBehaviour:
   controlID: 90
 >>>>>>> Kayden
 --- !u!114 &10
+=======
+  controlID: 77
+--- !u!114 &12
+>>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -548,12 +646,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
+  - {fileID: 6}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -568,27 +667,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Bond-Harris
     width: 1518
     height: 587
-  m_MinSize: {x: 406, y: 222}
-  m_MaxSize: {x: 8006, y: 4022}
+  m_MinSize: {x: 406, y: 322}
+  m_MaxSize: {x: 8006, y: 8022}
   vertical: 0
 <<<<<<< HEAD
-  controlID: 59
->>>>>>> master
-=======
-  controlID: 23
->>>>>>> Bond-Harris
->>>>>>> master
-=======
-  controlID: 53
->>>>>>> Bond-Harris
-=======
-    width: 1003
-    height: 356
-  m_MinSize: {x: 406, y: 222}
-  m_MaxSize: {x: 8006, y: 4022}
-  vertical: 0
   controlID: 59
 >>>>>>> Sylvester
 =======
@@ -600,6 +686,10 @@ MonoBehaviour:
   controlID: 23
 >>>>>>> Kayden
 --- !u!114 &11
+=======
+  controlID: 78
+--- !u!114 &13
+>>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -617,19 +707,24 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 298
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> Bond-Harris
     x: 376
+=======
+    x: 0
+>>>>>>> Bond-Harris
     y: 0
     width: 1142
-    height: 587
+    height: 391
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 20}
   m_Panes:
+<<<<<<< HEAD
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 13}
@@ -664,6 +759,15 @@ MonoBehaviour:
   m_LastSelected: 1
 >>>>>>> Kayden
 --- !u!114 &12
+=======
+  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 16}
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &14
+>>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -672,29 +776,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 687acdc95675db149bf5de5771ecac18, type: 3}
-  m_Name: SpriteEditorWindow
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 360, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Sprite Editor
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 384
-    y: 81
-    width: 1140
-    height: 568
-  m_ViewDataDictionary: {fileID: 0}
-  m_ResetOnNextRepaint: 0
-  m_SelectedAssetPath: Assets/Owl_Down_merged.psb
-  m_SelectedSpriteRectGUID: 8c759c8a500a2654d8391ac9dbdc801b
-  m_LastUsedModuleTypeName: UnityEditor.Experimental.U2D.Animation.SkinningModule
---- !u!114 &13
-<<<<<<< HEAD
-=======
   m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -707,6 +788,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 7.2000003
     y: 474.4
     width: 1003
@@ -716,6 +798,17 @@ MonoBehaviour:
     m_IsLocked: 0
   m_LastSelectedObjectID: -22204
 --- !u!114 &13
+=======
+    x: 384
+    y: 472
+    width: 1140
+    height: 177
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 18752
+--- !u!114 &15
+>>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -724,22 +817,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 687acdc95675db149bf5de5771ecac18, type: 3}
-  m_Name: SpriteEditorWindow
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 360, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Sprite Editor
-    m_Image: {fileID: 0}
+    m_Text: Animator
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+      type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 298.4
-    y: 73.6
-    width: 904
-    height: 440
+    x: 384
+    y: 81
+    width: 1140
+    height: 372
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< HEAD
   m_ResetOnNextRepaint: 1
   m_SelectedAssetPath: Assets/Snake_Tail.psb
   m_SelectedSpriteRectGUID: e74944d0fbc9a2442814443aeaf31a02
@@ -747,6 +842,98 @@ MonoBehaviour:
 --- !u!114 &14
 >>>>>>> master
 =======
+>>>>>>> Bond-Harris
+=======
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 4541184200523986363, guid: b63e11531ef499146ae459b2d2e22c94, type: 2}
+    - {fileID: 5358831903097164226, guid: 80c0dbf26d45fe843835e08996a268c3, type: 2}
+    - {fileID: -451494726393753882, guid: d3e2c99ad2fc77b48a0ccb3da34b2ad9, type: 2}
+    - {fileID: 2183187369411667288, guid: 6b66b9eccadd42c49b68d83fa77364c4, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.6748204
+      e01: 0
+      e02: 0
+      e03: 51.053185
+      e10: 0
+      e11: 0.6748204
+      e12: 0
+      e13: 164.25316
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1.0158354
+      e01: 0
+      e02: 0
+      e03: -34.321835
+      e10: 0
+      e11: 1.0158354
+      e12: 0
+      e13: 280.12387
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.7484211
+      e01: 0
+      e02: 0
+      e03: -22.421051
+      e10: 0
+      e11: 0.7484211
+      e12: 0
+      e13: 202.88422
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.7484211
+      e01: 0
+      e02: 0
+      e03: -22.421051
+      e10: 0
+      e11: 0.7484211
+      e12: 0
+      e13: 202.88422
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 6b66b9eccadd42c49b68d83fa77364c4,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 2183187369411667288, guid: 6b66b9eccadd42c49b68d83fa77364c4,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &16
 >>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -768,12 +955,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
+    x: 384
+    y: 81
+    width: 1140
+    height: 372
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &14
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -798,6 +985,7 @@ MonoBehaviour:
     y: 668
     width: 1518
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 433
 =======
     x: 0
@@ -816,6 +1004,9 @@ MonoBehaviour:
 =======
     height: 253
 >>>>>>> Kayden
+=======
+    height: 365
+>>>>>>> Bond-Harris
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -830,17 +1021,18 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\abond\OneDrive\Documents\Unity Projects\Chillennium2019\Chillennium
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,6 +1072,11 @@ MonoBehaviour:
     m_LastClickedID: 12856
     m_ExpandedIDs: 0000000038320000b032000000ca9a3b
 >>>>>>> Kayden
+=======
+    m_SelectedIDs: 4c360000
+    m_LastClickedID: 13900
+    m_ExpandedIDs: 000000003a3e0000aa3e000000ca9a3b
+>>>>>>> Bond-Harris
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Animations
@@ -911,6 +1108,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000066310000de310000
 =======
 <<<<<<< HEAD
@@ -932,6 +1130,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000038320000b0320000
 >>>>>>> Kayden
+=======
+    m_ExpandedIDs: 000000003a3e0000aa3e0000
+>>>>>>> Bond-Harris
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -956,23 +1157,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: f44e0000
-    m_LastClickedInstanceID: 20212
-    m_HadKeyboardFocusLastEvent: 1
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300008a3d0000
-=======
-    m_SelectedInstanceIDs: 1ed2ffff
-    m_LastClickedInstanceID: -11746
-    m_HadKeyboardFocusLastEvent: 0
->>>>>>> master
-=======
->>>>>>> Bond-Harris
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -989,7 +1176,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1001,7 +1188,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
---- !u!114 &15
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1025,6 +1212,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1204
     y: 73.6
     width: 330
@@ -1033,10 +1221,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Bond-Harris
     x: 1526
     y: 81
     width: 384
     height: 952
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -1052,6 +1243,8 @@ MonoBehaviour:
 >>>>>>> Bond-Harris
 =======
 >>>>>>> Kayden
+=======
+>>>>>>> Bond-Harris
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -1065,7 +1258,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &16
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1086,6 +1279,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1110,17 +1304,23 @@ MonoBehaviour:
 >>>>>>> master
 >>>>>>> master
 =======
+=======
+>>>>>>> Bond-Harris
     x: 8
     y: 81
     width: 376
     height: 568
+<<<<<<< HEAD
 >>>>>>> Bond-Harris
 =======
 >>>>>>> Kayden
+=======
+>>>>>>> Bond-Harris
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1158,6 +1358,11 @@ MonoBehaviour:
       m_LastClickedID: -22234
       m_ExpandedIDs: 1aa9ffff1ea9ffff22a9ffff26a9ffff2ca9ffff32a9ffff24c7ffff28c7ffff2cc7ffff30c7ffff34c7ffff38c7ffff3cc7ffff40c7ffff4ec7ffff54c7ffff28ceffff2cceffff30ceffff34ceffff38ceffff3cceffff40ceffff44ceffff52ceffff58ceffff76ceffff6ad8ffff6ed8ffff72d8ffff76d8ffff7ad8ffff7ed8ffff82d8ffff86d8ffff94d8ffff9ad8ffffb8d8fffff8f6ffff42f9ffff
 >>>>>>> Kayden
+=======
+      m_SelectedIDs: 4c360000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2ec7ffff32c7ffff34c7ffff38c7ffff3ac7ffff3cc7ffff3ec7ffff3ad4ffffb0d4ffffb2d4ffffb4d4ffffb6d4ffffb8d4ffffbad4ffffbcd4ffffbed4ffffd2d4ffffd4d4ffff36d7ffff28d8ffffaed9ffff3c490000
+>>>>>>> Bond-Harris
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1173,15 +1378,15 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 6}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 6ea122652d656c343924f9df6daf9f16
---- !u!114 &17
+  m_WindowGUID: 65366de89cb1f2e48b860299476406bd
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1205,6 +1410,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 298.4
     y: 73.6
     width: 904
@@ -1221,24 +1427,15 @@ MonoBehaviour:
     width: 753
     height: 375
 >>>>>>> Kayden
-  m_ViewDataDictionary: {fileID: 0}
-  m_ShowContextualTools: 0
-  m_WindowGUID: 5420676ac9a043b4d98cb717dd0c0e57
-=======
-    x: 255.2
-    y: 80.8
-    width: 753
-    height: 375
->>>>>>> master
 =======
     x: 384
     y: 81
     width: 1140
-    height: 568
+    height: 372
 >>>>>>> Bond-Harris
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
-  m_WindowGUID: c2b89f2db0a075842bd79e3c13d23a19
+  m_WindowGUID: 7fc47df6784488a459f9073c84d71c2a
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -1247,6 +1444,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1286,6 +1484,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 9.927791, y: 3.6984615, z: -56.908493}
 >>>>>>> Kayden
+=======
+    m_Target: {x: 5.679107, y: -0.3855967, z: -13.230469}
+    speed: 2
+    m_Value: {x: 5.679107, y: -0.3855967, z: -13.230469}
+>>>>>>> Bond-Harris
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1318,6 +1521,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1357,6 +1561,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 11.976353
 >>>>>>> Kayden
+=======
+    m_Target: 22.094965
+    speed: 2
+    m_Value: 22.094965
+>>>>>>> Bond-Harris
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1382,7 +1591,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1403,6 +1612,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 507
     y: 94
     width: 1532
@@ -1424,10 +1634,16 @@ MonoBehaviour:
 =======
     height: 440
 >>>>>>> Kayden
+=======
+    x: 384
+    y: 81
+    width: 1140
+    height: 372
+>>>>>>> Bond-Harris
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
@@ -1436,6 +1652,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
     m_VBaseRangeMin: -386.5
@@ -1459,6 +1676,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -211.5
     m_VBaseRangeMax: 211.5
 >>>>>>> Kayden
+=======
+    m_HBaseRangeMin: -570
+    m_HBaseRangeMax: 570
+    m_VBaseRangeMin: -177.5
+    m_VBaseRangeMax: 177.5
+>>>>>>> Bond-Harris
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1467,7 +1690,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1476,6 +1699,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 1532
       height: 773
     m_Scale: {x: 1, y: 1}
@@ -1497,12 +1721,19 @@ MonoBehaviour:
 =======
     m_Translation: {x: 452, y: 211.5}
 >>>>>>> Kayden
+=======
+      width: 1140
+      height: 355
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 570, y: 177.5}
+>>>>>>> Bond-Harris
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -766
       y: -386.5
       width: 1532
@@ -1518,10 +1749,17 @@ MonoBehaviour:
       y: -211.5
       width: 904
       height: 423
+=======
+      x: -570
+      y: -177.5
+      width: 1140
+      height: 355
+>>>>>>> Bond-Harris
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1130, y: 551.25}
@@ -1534,11 +1772,14 @@ MonoBehaviour:
 =======
   m_LastWindowPixelSize: {x: 1130, y: 550}
 >>>>>>> Kayden
+=======
+  m_LastWindowPixelSize: {x: 1140, y: 372}
+>>>>>>> Bond-Harris
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
---- !u!114 &19
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1560,6 +1801,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 8
+<<<<<<< HEAD
     y: 718
     width: 1366
     height: 308
@@ -1585,4 +1827,9 @@ MonoBehaviour:
 =======
     height: 253
 >>>>>>> Kayden
+=======
+    y: 668
+    width: 1518
+    height: 365
+>>>>>>> Bond-Harris
   m_ViewDataDictionary: {fileID: 0}
