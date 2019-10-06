@@ -8,6 +8,7 @@ public class Snake_Tail_Script : MonoBehaviour
     [SerializeField] float wait_time;
     [SerializeField] Animator tail_anim;
     [SerializeField] float attack_time = 0.3f;
+    [SerializeField] Transform detection_point;
     float attack_timer;
     float wait_timer;
     [SerializeField]
@@ -54,12 +55,16 @@ public class Snake_Tail_Script : MonoBehaviour
         else
         {
             m_clipInfo = tail_anim.GetCurrentAnimatorClipInfo(0);
-            string clip_name = m_clipInfo[0].clip.name;
-            if (clip_name == "snake_tail_swipe")
+            if (m_clipInfo.Length > 0)
             {
-                attack_timer = attack_time;
-                tail_anim.SetFloat("Attack_Timer", attack_time);
+                string clip_name = m_clipInfo[0].clip.name;
+                if (clip_name == "snake_tail_swipe")
+                {
+                    attack_timer = attack_time;
+                    tail_anim.SetFloat("Attack_Timer", attack_time);
+                }
             }
+            
         }
 
         if (attack_timer > 0)
@@ -70,14 +75,33 @@ public class Snake_Tail_Script : MonoBehaviour
         else
         {
             m_clipInfo = tail_anim.GetCurrentAnimatorClipInfo(0);
-            string clip_name = m_clipInfo[0].clip.name;
-            if (clip_name == "snake_tail_swipe")
+            if (m_clipInfo.Length > 0)
             {
-                m_clip_length = m_clipInfo[0].clip.length;
-                if (idle_timer <= 0)
+                string clip_name = m_clipInfo[0].clip.name;
+                if (clip_name == "snake_tail_swipe")
                 {
-                    idle_timer = m_clip_length;
+                    m_clip_length = m_clipInfo[0].clip.length;
+                    if (idle_timer <= 0)
+                    {
+                        idle_timer = m_clip_length;
+                    }
                 }
+            }
+            
+        }
+
+        if (player.transform.position.x < detection_point.position.x)
+        {
+            if (transform.localScale.x > 0)
+            {
+                transform.localScale = new Vector3(-1 * transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            }
+        }
+        else if (player.transform.position.x > detection_point.position.x)
+        {
+            if (transform.localScale.x < 0)
+            {
+                transform.localScale = new Vector3(-1 * transform.localScale.x, transform.localScale.y, transform.localScale.z);
             }
         }
 
@@ -85,6 +109,6 @@ public class Snake_Tail_Script : MonoBehaviour
 
     private float distance_to_player()
     {
-        return Vector2.Distance(player.transform.position, transform.position);
+        return Vector2.Distance(player.transform.position, detection_point.position);
     }
 }
