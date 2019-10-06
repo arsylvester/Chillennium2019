@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     [SerializeField] float dashLength = .25f;
     [SerializeField] float dashCoolDown = .1f;
     [SerializeField] float knockbackDamping = .1f;
-    public int damageDealt = 1;
     [SerializeField] BoxCollider2D HBoxUp;
     [SerializeField] BoxCollider2D HBoxDown;
     [SerializeField] BoxCollider2D HBoxLeft;

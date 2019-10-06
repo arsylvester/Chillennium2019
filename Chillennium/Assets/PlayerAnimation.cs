@@ -7,6 +7,7 @@ public class PlayerAnimation : MonoBehaviour
     public bool userInput;
     public Player PlayerScript;
 
+    private bool facingRight;
     private float xAxis;
     private float yAxis;
 
@@ -25,11 +26,6 @@ public class PlayerAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        frontChick.SetActive(false);
-        backChick.SetActive(false);
-        sideChick.SetActive(true);
-        animSide.SetBool("userInput", true);
-
         xAxis = Input.GetAxis("Horizontal");
         yAxis = Input.GetAxis("Vertical");
 
@@ -55,9 +51,26 @@ public class PlayerAnimation : MonoBehaviour
             frontChick.SetActive(false);
             sideChick.SetActive(false);
         }
-        else if(xAxis != 0)
+        else if(xAxis > 0)
         {
-            if (sideChick.activeSelf == false)
+            if(facingRight)
+                Flip();
+
+            if (sideChick.activeSelf == false || !animSide.GetBool("userInput"))
+            {
+                sideChick.SetActive(true);
+                animSide.SetBool("userInput", true);
+            }
+
+            frontChick.SetActive(false);
+            backChick.SetActive(false);
+        }
+        else if (xAxis < 0)
+        {
+            if (!facingRight)
+                Flip();
+
+            if (sideChick.activeSelf == false || !animSide.GetBool("userInput"))
             {
                 sideChick.SetActive(true);
                 animSide.SetBool("userInput", true);
@@ -90,6 +103,20 @@ public class PlayerAnimation : MonoBehaviour
             }
             else if (PlayerScript.direct == Player.Direction.Right)
             {
+                if (facingRight)
+                    Flip();
+
+                if (sideChick.activeSelf == false)
+                    sideChick.SetActive(true);
+
+                frontChick.SetActive(false);
+                backChick.SetActive(false);
+            }
+            else if (PlayerScript.direct == Player.Direction.Left)
+            {
+                if (!facingRight)
+                    Flip();
+
                 if (sideChick.activeSelf == false)
                     sideChick.SetActive(true);
 
@@ -97,5 +124,13 @@ public class PlayerAnimation : MonoBehaviour
                 backChick.SetActive(false);
             }
         }
+    }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 }
