@@ -192,6 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1
+  m_invincibility_time: 0
 --- !u!61 &6765357476632606123
 BoxCollider2D:
   m_ObjectHideFlags: 0
