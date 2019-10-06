@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 4119261731548053293}
   - component: {fileID: 4119261731548053292}
   m_Layer: 0
-  m_Name: placeholder-spikes
-  m_TagString: Untagged
+  m_Name: spikes
+  m_TagString: Spikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4119261731681898525}
   m_Layer: 0
   m_Name: Collision
-  m_TagString: Untagged
+  m_TagString: Spikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.05287856, y: -0.26062697}

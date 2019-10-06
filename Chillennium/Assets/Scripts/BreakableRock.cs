@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider2D))]
 public class BreakableRock : MonoBehaviour
 {
+    [SerializeField] float respawnDelay = 8f;
     BoxCollider2D m_col;
     BoxTrigger m_boxTrigger;
     private float reactivation_timer = 0f;
@@ -38,6 +39,8 @@ public class BreakableRock : MonoBehaviour
         //change sprites
         //turn off collision
         m_col.enabled = false;
+        GetComponent<Renderer>().enabled = false;
+        respawn(respawnDelay);
     }
 
     /// <summary>
@@ -57,13 +60,14 @@ public class BreakableRock : MonoBehaviour
     /// </summary>
     private void Reactivate()
     {
-        if (m_boxTrigger.getCollided())
-        {
-            reactivation_timer = 0.1f;
-        }
-        else
+       // if (m_boxTrigger.getCollided())
+       // {
+      //      reactivation_timer = 0.1f;
+      //  }
+       // else
         {
             m_col.enabled = true;
+            GetComponent<Renderer>().enabled = true;
         }
     }
 }
