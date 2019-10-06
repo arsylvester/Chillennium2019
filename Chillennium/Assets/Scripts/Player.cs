@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] float dashLength = .25f;
     [SerializeField] float dashCoolDown = .1f;
     [SerializeField] float knockbackDamping = .1f;
+    [SerializeField] float attackDuration = .25f;
     [SerializeField] BoxCollider2D HBoxUp;
     [SerializeField] BoxCollider2D HBoxDown;
     [SerializeField] BoxCollider2D HBoxLeft;
@@ -89,7 +90,7 @@ public class Player : MonoBehaviour
                     StartCoroutine(hitBoxActivate(HBoxDown));
                     break;
                 case Direction.Left:
-                    StartCoroutine(hitBoxActivate(HBoxLeft));
+                    StartCoroutine(hitBoxActivate(HBoxRight));
                     break;
                 case Direction.Right:
                     StartCoroutine(hitBoxActivate(HBoxRight));
@@ -134,7 +135,7 @@ public class Player : MonoBehaviour
     {
         hitBox.enabled = true;
         isAttacking = true;
-        yield return new WaitForSecondsRealtime(.25f);
+        yield return new WaitForSecondsRealtime(attackDuration);
         hitBox.enabled = false;
         isAttacking = false;
     }
