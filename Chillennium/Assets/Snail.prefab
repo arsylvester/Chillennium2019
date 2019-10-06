@@ -513,6 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 866885523090308723}
   - component: {fileID: 866885523090308720}
+  - component: {fileID: 5095493056305064315}
   m_Layer: 0
   m_Name: Attack Box
   m_TagString: Untagged
@@ -560,6 +561,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5095493056305064315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866885523090308721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6262ae796a69b043973fe8ba02407ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage_amt: 1
+  knockback_str: 15
+  knockback_origin: {fileID: 866885523090308723}
+  damage_tags:
+  - Player
 --- !u!1 &866885523729419866
 GameObject:
   m_ObjectHideFlags: 0
