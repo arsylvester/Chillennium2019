@@ -9,7 +9,7 @@ public class PlayerAnimation : MonoBehaviour
     public Player PlayerScript;
 
     private bool facingRight;
-    private bool hasSwitched = false;
+    public bool hasSwitched = false;
     private float xAxis;
     private float yAxis;
 
@@ -20,7 +20,7 @@ public class PlayerAnimation : MonoBehaviour
     private Animator animSide;
     private Animator animBack;
 
-    [SerializeField] int numEggs;
+    public int numEggs;
 
     [SerializeField] Animator noEggAnimFront;
     [SerializeField] Animator noEggAnimSide;

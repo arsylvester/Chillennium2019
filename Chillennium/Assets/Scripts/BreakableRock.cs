@@ -11,6 +11,7 @@ public class BreakableRock : MonoBehaviour
     BoxTrigger m_boxTrigger;
     private float reactivation_timer = 0f;
     GameObject player;
+    SpriteRenderer m_renderer;
     int spriteIndex = 0;
 
     public void Awake()
@@ -18,6 +19,7 @@ public class BreakableRock : MonoBehaviour
         m_col = GetComponent<BoxCollider2D>();
         m_boxTrigger = GetComponentInChildren<BoxTrigger>();
         player = GameObject.FindGameObjectWithTag("Player");
+        m_renderer = GetComponent<SpriteRenderer>();
     }
 
     public void Start()
@@ -77,6 +79,6 @@ public class BreakableRock : MonoBehaviour
 
     void changeSprite()
     {
-        GetComponent<SpriteRenderer>().sprite = rockSprites[spriteIndex];
+        m_renderer.sprite = rockSprites[spriteIndex];
     }
 }

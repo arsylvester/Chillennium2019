@@ -4,5 +4,39 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes: []
+=======
+  m_Scenes:
+<<<<<<< HEAD
+  - enabled: 0
+    path: Assets/Scenes/Test_Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/Test_Scenes/ABH_Test.unity
+    guid: ef35aa983a9393c4f80bcfc1b7781d17
+  - enabled: 1
+    path: Assets/Scenes/LevelOne.unity
+    guid: f826fb6ac0369ed44aac461bcc9e81f6
+>>>>>>> Bond-Harris
+=======
+  - enabled: 1
+    path: Assets/Scenes/Title_Screen.unity
+    guid: bf6ebaf2454658a45a3d4989614287b5
+  - enabled: 1
+    path: Assets/Scenes/LevelOne.unity
+    guid: f826fb6ac0369ed44aac461bcc9e81f6
+  - enabled: 1
+    path: Assets/Scenes/Credits Menu.unity
+    guid: ccb2f30e38be22e4aaaf2cec1ae17543
+  - enabled: 1
+    path: Assets/Scenes/You Won.unity
+    guid: cd3cda9ab6558594b836a3ae4c659832
+  - enabled: 1
+    path: Assets/Scenes/You Tried.unity
+    guid: 4f23929d25b5bef4ab8723e17b0a624c
+  - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: 28a8b2c777886ec4e88b6b586f750a11
+>>>>>>> Sylvester
   m_configObjects: {}

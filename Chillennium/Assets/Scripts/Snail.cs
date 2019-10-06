@@ -16,10 +16,13 @@ public class Snail : MonoBehaviour
     [SerializeField] GameObject slime;
     [SerializeField] GameObject attackBox;
     [SerializeField] Animator m_snail_anim;
+    [SerializeField] GameObject m_snail_prefab;
+    [SerializeField] GameObject m_egg;
     private Player player;
     private float timeOfLastTurn;
     private Player.Direction direction = Player.Direction.Down;
     private bool isAttacking = false;
+    private bool alive = true;
 
 
     // Start is called before the first frame update
@@ -32,7 +35,7 @@ public class Snail : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isAttacking)
+        if (!isAttacking && alive)
         {
             if (Time.time - turnCoolDown > timeOfLastTurn)
             {
@@ -126,6 +129,11 @@ public class Snail : MonoBehaviour
 
     public void dead()
     {
-        Destroy(gameObject);
+        normalBody.SetActive(false);
+        attackBody.SetActive(false);
+        m_snail_prefab.SetActive(false);
+        m_egg.SetActive(true);
+        slimeSpawner.SetActive(false);
+        alive = false;
     }
 }

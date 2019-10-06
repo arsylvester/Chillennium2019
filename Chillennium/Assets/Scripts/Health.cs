@@ -62,4 +62,9 @@ public class Health : MonoBehaviour
         }
         
     }
+
+    public void Heal()
+    {
+        health = maxHealth;
+    }
 }
