@@ -31,7 +31,8 @@ public class DamageTriggerKnockback : MonoBehaviour
         }
         if (can_hurt)
         {
-            Health health_script = collision.GetComponent<Health>();
+            Health health_script = collision.GetComponentInParent<Health>();
+            print("health script is: " + health_script);
             Vector3 knockback_dir;
             if (knockback_origin != null)
             {
