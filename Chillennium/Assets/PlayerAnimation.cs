@@ -17,10 +17,14 @@ public class PlayerAnimation : MonoBehaviour
     [SerializeField] GameObject frontChick;
     [SerializeField] GameObject sideChick;
     [SerializeField] GameObject backChick;
+    [SerializeField] ParticleSystem dashEffect;
+    [SerializeField] float dashEffectDuration;
 
     // Start is called before the first frame update
     void Start()
     {
+        if(!dashEffect.isStopped)
+            dashEffect.Stop();
     }
 
     // Update is called once per frame
@@ -124,6 +128,64 @@ public class PlayerAnimation : MonoBehaviour
                 backChick.SetActive(false);
             }
         }
+
+        if(PlayerScript.dashing)
+        {
+            //if (!dashEffect.isPlaying)
+            //{
+                StartCoroutine(DashEffect());
+            //}
+        }
+    }
+
+    IEnumerator DashEffect()
+    {
+        dashEffect.Play();
+        animFront.SetBool("userInput", false);
+        animBack.SetBool("userInput", false);
+        animSide.SetBool("userInput", false);
+
+        if (PlayerScript.direct == Player.Direction.Down)
+        {
+            if (frontChick.activeSelf == false)
+                frontChick.SetActive(true);
+
+            sideChick.SetActive(false);
+            backChick.SetActive(false);
+        }
+        else if (PlayerScript.direct == Player.Direction.Up)
+        {
+            if (backChick.activeSelf == false)
+                backChick.SetActive(true);
+
+            frontChick.SetActive(false);
+            sideChick.SetActive(false);
+        }
+        else if (PlayerScript.direct == Player.Direction.Right)
+        {
+            if (facingRight)
+                Flip();
+
+            if (sideChick.activeSelf == false)
+                sideChick.SetActive(true);
+
+            frontChick.SetActive(false);
+            backChick.SetActive(false);
+        }
+        else if (PlayerScript.direct == Player.Direction.Left)
+        {
+            if (!facingRight)
+                Flip();
+
+            if (sideChick.activeSelf == false)
+                sideChick.SetActive(true);
+
+            frontChick.SetActive(false);
+            backChick.SetActive(false);
+        }
+
+        yield return new WaitForSeconds(dashEffectDuration);
+        dashEffect.Stop();
     }
 
     void Flip()
