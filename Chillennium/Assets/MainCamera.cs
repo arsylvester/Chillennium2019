@@ -5,13 +5,13 @@ using UnityEngine;
 public class MainCamera : MonoBehaviour
 {
     Player player;
-    public GameObject test;
+    //public GameObject test;
 
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<Player>();
-        test.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width/2, Screen.height, 0));
+        //test.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width/2, Screen.height, 0));
     }
 
     // Update is called once per frame

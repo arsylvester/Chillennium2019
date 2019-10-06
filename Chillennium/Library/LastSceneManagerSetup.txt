@@ -1,5 +1,37 @@
 sceneSetups:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- path: Assets/Scenes/ABH_Test.unity
+=======
+- path: Assets/Scenes/Cameron Testing.unity
+>>>>>>> Meyer
+=======
+- path: Assets/Scenes/CombatTesting.unity
+>>>>>>> Sylvester
+=======
+- path: Assets/Scenes/LevelOne.unity
+>>>>>>> Bond-Harris
+=======
+- path: Assets/Scenes/Title_Screen.unity
+>>>>>>> Meyer
+=======
 - path: Assets/Scenes/Test_Scenes/Owl Testing.unity
+>>>>>>> Sylvester
+=======
+- path: Assets/Scenes/Test_Scenes/Snake Battle Arena.unity
+>>>>>>> Meyer
+=======
+- path: Assets/Scenes/LevelOne.unity
+>>>>>>> Bond-Harris
+=======
+- path: Assets/Scenes/Test_Scenes/Owl Testing.unity
+>>>>>>> Sylvester
   isLoaded: 1
   isActive: 1
   isSubScene: 0
