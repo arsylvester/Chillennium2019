@@ -15,13 +15,43 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+    y: 42.666668
+    width: 1280
+    height: 677.3334
+  m_ShowMode: 4
+  m_Title: 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
     y: 43.2
     width: 1536
     height: 780.8
   m_ShowMode: 4
   m_Title: 
+>>>>>>> Meyer
   m_RootView: {fileID: 6}
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 544}
+<<<<<<< HEAD
+=======
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 394}
+>>>>>>> Meyer
+=======
+  m_RootView: {fileID: 7}
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Bond-Harris
+=======
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Sylvester
+=======
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Bond-Harris
+=======
+>>>>>>> Meyer
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -31,23 +61,25 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 30
-    width: 1536
-    height: 731
-  m_MinSize: {x: 683, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
-  vertical: 0
-  controlID: 56
+    y: 495
+    width: 517
+    height: 476
+  m_MinSize: {x: 234, y: 272}
+  m_MaxSize: {x: 10004, y: 10022}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -56,13 +88,111 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+=======
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> Meyer
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
+  m_Children:
+  - {fileID: 9}
+<<<<<<< HEAD
+  - {fileID: 2}
+=======
+  - {fileID: 3}
+>>>>>>> Meyer
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 0
+    y: 30
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1904
+    height: 971
+<<<<<<< HEAD
+  m_MinSize: {x: 679, y: 494}
+  m_MaxSize: {x: 14002, y: 14044}
+=======
+    width: 1280
+    height: 628
+  m_MinSize: {x: 683, y: 494}
+  m_MaxSize: {x: 14004, y: 14044}
+>>>>>>> Sylvester
+  vertical: 0
+  controlID: 114
+=======
+=======
+    x: 900
+>>>>>>> Bond-Harris
+    y: 0
+    width: 517
+    height: 971
+  m_MinSize: {x: 234, y: 494}
+  m_MaxSize: {x: 10004, y: 14044}
+  vertical: 1
+  controlID: 62
+--- !u!114 &4
+=======
+    width: 1536
+    height: 731
+  m_MinSize: {x: 683, y: 494}
+  m_MaxSize: {x: 14004, y: 14044}
+  vertical: 0
+  controlID: 56
+--- !u!114 &3
+>>>>>>> Meyer
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> Meyer
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 6}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 1518
+=======
+    x: 1003
+>>>>>>> Sylvester
+    y: 0
+    width: 277
+    height: 628
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+=======
+=======
+>>>>>>> Bond-Harris
+    x: 0
+    y: 0
+    width: 1904
+    height: 1021
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &5
+=======
     x: 1225
     y: 0
     width: 311
@@ -75,6 +205,7 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,7 +214,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+=======
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> Meyer
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
@@ -91,6 +226,45 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 376
+<<<<<<< HEAD
+    height: 587
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+=======
+    height: 626
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 18}
+>>>>>>> Bond-Harris
+=======
+    width: 248
+    height: 356
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 17}
+>>>>>>> Sylvester
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+=======
+    y: 761
+    width: 1536
+    height: 20
+=======
+    width: 1904
+    height: 30
+>>>>>>> Bond-Harris
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &6
+=======
     width: 303
     height: 442
   m_MinSize: {x: 202, y: 222}
@@ -101,6 +275,7 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,6 +287,52 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 3}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 587
+    width: 1518
+    height: 384
+=======
+    y: 356
+    width: 1003
+    height: 272
+>>>>>>> Sylvester
+  m_MinSize: {x: 232, y: 272}
+  m_MaxSize: {x: 10002, y: 10022}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 20}
+  - {fileID: 13}
+  - {fileID: 12}
+  m_Selected: 0
+<<<<<<< HEAD
+  m_LastSelected: 0
+=======
+=======
+>>>>>>> Bond-Harris
+    y: 30
+    width: 1904
+    height: 971
+  m_MinSize: {x: 713, y: 494}
+  m_MaxSize: {x: 18008, y: 14044}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 123
+>>>>>>> Meyer
+=======
+  m_LastSelected: 1
+>>>>>>> Sylvester
+=======
   m_Children: []
   m_Position:
     serializedVersion: 2
@@ -128,7 +349,12 @@ MonoBehaviour:
   - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
+>>>>>>> Meyer
 --- !u!114 &6
+=======
+  controlID: 135
+--- !u!114 &7
+>>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,6 +363,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+=======
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -144,15 +376,36 @@ MonoBehaviour:
   - {fileID: 7}
   - {fileID: 2}
   - {fileID: 8}
+>>>>>>> Meyer
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1904
+    height: 1021
+=======
+    width: 1280
+    height: 678
+>>>>>>> Sylvester
+=======
     width: 1536
     height: 781
+>>>>>>> Meyer
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
+=======
+    y: 1001
+    width: 1904
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &8
+>>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,17 +417,42 @@ MonoBehaviour:
   m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 12}
+=======
   m_Children: []
+>>>>>>> Meyer
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1904
+=======
+    width: 1280
+>>>>>>> Sylvester
+=======
     width: 1536
+>>>>>>> Meyer
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
 --- !u!114 &8
+=======
+    width: 900
+    height: 971
+  m_MinSize: {x: 202, y: 444}
+  m_MaxSize: {x: 4002, y: 8044}
+  vertical: 1
+  controlID: 41
+--- !u!114 &9
+>>>>>>> Bond-Harris
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,12 +468,41 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 1001
+    width: 1904
+=======
+    y: 658
+    width: 1280
+>>>>>>> Sylvester
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+=======
+=======
+>>>>>>> Bond-Harris
+    y: 0
+    width: 517
+    height: 495
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+=======
     y: 761
     width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
 --- !u!114 &9
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,6 +519,41 @@ MonoBehaviour:
   - {fileID: 5}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 1417
+    y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1518
+    height: 971
+<<<<<<< HEAD
+  m_MinSize: {x: 404, y: 494}
+=======
+    width: 1003
+    height: 628
+  m_MinSize: {x: 406, y: 494}
+>>>>>>> Sylvester
+  m_MaxSize: {x: 10002, y: 14044}
+  vertical: 1
+  controlID: 52
+=======
+    width: 823
+    height: 442
+  m_MinSize: {x: 200, y: 200}
+=======
+    width: 487
+    height: 971
+  m_MinSize: {x: 275, y: 50}
+>>>>>>> Bond-Harris
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+=======
     x: 0
     y: 0
     width: 1225
@@ -221,6 +563,7 @@ MonoBehaviour:
   vertical: 1
   controlID: 57
 --- !u!114 &10
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -239,6 +582,40 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1518
+<<<<<<< HEAD
+    height: 587
+  m_MinSize: {x: 404, y: 222}
+  m_MaxSize: {x: 8004, y: 4022}
+=======
+    width: 1003
+    height: 356
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
+>>>>>>> Sylvester
+  vertical: 0
+  controlID: 53
+=======
+    y: 442
+    width: 1097
+    height: 289
+  m_MinSize: {x: 102, y: 122}
+=======
+    width: 900
+    height: 498
+  m_MinSize: {x: 202, y: 222}
+>>>>>>> Bond-Harris
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &12
+=======
     width: 1225
     height: 442
   m_MinSize: {x: 406, y: 222}
@@ -246,6 +623,7 @@ MonoBehaviour:
   vertical: 0
   controlID: 58
 --- !u!114 &11
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,6 +638,50 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 376
+    y: 0
+<<<<<<< HEAD
+    width: 1142
+    height: 587
+=======
+    width: 506
+    height: 626
+>>>>>>> Bond-Harris
+=======
+    x: 248
+    y: 0
+    width: 755
+    height: 356
+>>>>>>> Sylvester
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
+  m_ActualView: {fileID: 19}
+=======
+    x: 0
+    y: 498
+    width: 900
+    height: 473
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 16}
+>>>>>>> Bond-Harris
+  m_Panes:
+<<<<<<< HEAD
+  - {fileID: 16}
+  m_Selected: 0
+=======
+  - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 14}
+  m_Selected: 1
+>>>>>>> Sylvester
+  m_LastSelected: 0
+<<<<<<< HEAD
+=======
     x: 303
     y: 0
     width: 922
@@ -273,6 +695,7 @@ MonoBehaviour:
   - {fileID: 12}
   m_Selected: 1
   m_LastSelected: 2
+>>>>>>> Meyer
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -282,6 +705,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 428.6667
+    width: 1003
+    height: 253
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -25362
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+=======
+>>>>>>> Meyer
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -294,6 +749,26 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 0
+    y: 428.6667
+    width: 1003
+    height: 253
+  m_ViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 8923222819287665145, guid: c51dfb214ffd5074a92eae6355960c6b, type: 2}
+    - {fileID: 4128853890269310754, guid: 5faa4909f1498234cbdd4c5fadc8f681, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.64
+      e01: 0
+      e02: 0
+      e03: -17
+      e10: 0
+      e11: 0.64
+      e12: 0
+      e13: 16.200005
+=======
     x: 303.2
     y: 73.6
     width: 920
@@ -371,6 +846,7 @@ MonoBehaviour:
       e11: 0.57473683
       e12: 0
       e13: 125.03158
+>>>>>>> Meyer
       e20: 0
       e21: 0
       e22: 1
@@ -379,6 +855,16 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+<<<<<<< HEAD
+    - e00: 0.38367346
+      e01: 0
+      e02: 0
+      e03: 131
+      e10: 0
+      e11: 0.38367346
+      e12: 0
+      e13: 57.204082
+=======
     - e00: 0.8741028
       e01: 0
       e02: 0
@@ -515,6 +1001,7 @@ MonoBehaviour:
       e11: 1
       e12: 0
       e13: 64
+>>>>>>> Meyer
       e20: 0
       e21: 0
       e22: 1
@@ -524,10 +1011,17 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
+<<<<<<< HEAD
+  m_AnimatorController: {fileID: 9100000, guid: 5faa4909f1498234cbdd4c5fadc8f681,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 4128853890269310754, guid: 5faa4909f1498234cbdd4c5fadc8f681,
+=======
   m_AnimatorController: {fileID: 9100000, guid: b8956a2aedc8b46428c3c47dac1b1ea6,
     type: 2}
   m_BreadCrumbs:
   - m_Target: {fileID: 7829508972849921071, guid: b8956a2aedc8b46428c3c47dac1b1ea6,
+>>>>>>> Meyer
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -536,6 +1030,218 @@ MonoBehaviour:
   blendTreeGraphGUI: {fileID: 0}
   m_AutoLiveLink: 1
   m_MiniTool: 0
+<<<<<<< HEAD
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+=======
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+>>>>>>> Meyer
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+  m_ViewDataDictionary: {fileID: 0}
+=======
+    x: 274.4
+    y: 73.6
+    width: 821
+    height: 423
+  m_ViewDataDictionary: {fileID: 0}
+  m_VSyncEnabled: 0
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -328.4
+    m_HBaseRangeMax: 328.4
+    m_VBaseRangeMin: -162.40001
+    m_VBaseRangeMax: 162.40001
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 821
+      height: 406
+    m_Scale: {x: 1.0549616, y: 1.0549616}
+    m_Translation: {x: 410.5, y: 203}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -389.1137
+      y: -192.42407
+      width: 778.2274
+      height: 384.84814
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 1026.25, y: 528.75}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+>>>>>>> Meyer
+=======
+>>>>>>> Bond-Harris
+--- !u!114 &13
+=======
+    x: 250
+    y: 20
+    width: 751
+    height: 334
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &15
+>>>>>>> Sylvester
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 908
+    y: 81
+    width: 515
+    height: 476
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: dcfaffff
+      m_LastClickedID: -1316
+      m_ExpandedIDs: 5efbffff60fbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 9}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 42df758636112604b8fd657d97e9e41d
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1425
+    y: 81
+    width: 485
+    height: 952
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: -160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+--- !u!114 &15
+=======
   m_LockTracker:
     m_IsLocked: 0
   m_CurrentEditor: 1
@@ -571,6 +1277,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_LastSelectedObjectID: 19138
 --- !u!114 &14
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -591,10 +1298,37 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 8
+    y: 668
+    width: 1518
+    height: 365
+=======
+=======
+>>>>>>> Meyer
     x: 0
     y: 515.2
     width: 1225
     height: 270
+<<<<<<< HEAD
+>>>>>>> Meyer
+=======
+    x: 0
+    y: 428.6667
+    width: 1003
+    height: 253
+>>>>>>> Sylvester
+=======
+    x: 908
+    y: 576
+    width: 515
+    height: 457
+>>>>>>> Bond-Harris
+=======
+>>>>>>> Meyer
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -609,6 +1343,39 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    - Assets/Animations
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Animations
+=======
+=======
+>>>>>>> Sylvester
+    - Assets
+=======
+    - Assets/Sprites
+>>>>>>> Bond-Harris
+  m_ViewMode: 1
+  m_StartGridSize: 51
+  m_LastFolders:
+<<<<<<< HEAD
+  - Assets
+<<<<<<< HEAD
+>>>>>>> Bond-Harris
+=======
+>>>>>>> Sylvester
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\indya\Documents\GitHub\Chillennium2019\Chillennium
+=======
+  - Assets/Sprites
+  m_LastFoldersGridSize: 51
+  m_LastProjectPath: C:\Users\abond\OneDrive\Documents\Unity Projects\Chillennium2019\Chillennium
+>>>>>>> Bond-Harris
+=======
     - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -616,13 +1383,44 @@ MonoBehaviour:
   - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity Projects\Chillennium2019\Chillennium
+>>>>>>> Meyer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_SelectedIDs: 48360000
+    m_LastClickedID: 13896
+    m_ExpandedIDs: 00000000b43100002e32000000ca9a3b
+=======
+    m_SelectedIDs: ae310000
+    m_LastClickedID: 12718
+    m_ExpandedIDs: 000000007c310000fc31000000ca9a3b
+>>>>>>> Meyer
+=======
+    m_SelectedIDs: b8310000
+    m_LastClickedID: 12728
+    m_ExpandedIDs: 00000000b83100003232000000ca9a3b
+>>>>>>> Bond-Harris
+=======
+    m_SelectedIDs: 3a330000
+    m_LastClickedID: 13114
+    m_ExpandedIDs: 000000003a330000b4330000
+>>>>>>> Sylvester
+=======
+    m_SelectedIDs: e0310000
+    m_LastClickedID: 12768
+    m_ExpandedIDs: 000000008e3100001032000000ca9a3b
+>>>>>>> Bond-Harris
+=======
     m_SelectedIDs: 023c0000
     m_LastClickedID: 15362
     m_ExpandedIDs: 00000000023c0000743c000000ca9a3b
+>>>>>>> Meyer
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +1448,27 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000b43100002e320000
+=======
+    m_ExpandedIDs: 000000007c310000fc310000
+>>>>>>> Meyer
+=======
+    m_ExpandedIDs: 00000000b831000032320000
+>>>>>>> Bond-Harris
+=======
+    m_ExpandedIDs: 000000003a330000b4330000
+>>>>>>> Sylvester
+=======
+    m_ExpandedIDs: 000000008e31000010320000
+>>>>>>> Bond-Harris
+=======
     m_ExpandedIDs: 00000000023c0000743c0000
+>>>>>>> Meyer
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -678,7 +1496,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: fe4b00008a39000090390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -694,7 +1512,15 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 5}
+=======
+      m_ClientGUIView: {fileID: 2}
+>>>>>>> Bond-Harris
+=======
+      m_ClientGUIView: {fileID: 5}
+>>>>>>> Meyer
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -702,11 +1528,25 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
+<<<<<<< HEAD
+    m_ScrollPosition: {x: 0, y: 84}
+    m_GridSize: 51
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 115
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!114 &14
+=======
+--- !u!114 &16
+>>>>>>> Sylvester
+=======
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
 --- !u!114 &15
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -727,10 +1567,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 1003.3334
+    y: 72.66667
+    width: 275
+    height: 609
+=======
     x: 1224.8
     y: 73.6
     width: 309
     height: 712
+>>>>>>> Meyer
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -744,7 +1591,14 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
+<<<<<<< HEAD
+--- !u!114 &17
+=======
 --- !u!114 &16
+>>>>>>> Bond-Harris
+=======
+--- !u!114 &16
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -753,29 +1607,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 0
+    y: 72.66667
+    width: 248
+    height: 337
+=======
     x: 0
     y: 73.6
     width: 303
     height: 423
+>>>>>>> Meyer
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 58}
       m_SelectedIDs: 703a0000
       m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      m_ExpandedIDs: eef9ffff44fbffffbe3e0000
+=======
+      m_ExpandedIDs: 28f7ffff56fbfffff4ffffff
+>>>>>>> Bond-Harris
+=======
+      m_ExpandedIDs: 78b3ffff7ab3ffffcab3ffffceb3ffffb4c4ffffb6c4ffff02c7ffff04c7ffff52c7ffff54c7ffffa2c7ffffa4c7fffff6c7fffff8c7ffff3ec8ffff46c8ffff78ecffff7cecffff7eecffff80ecffff82ecffffe2ecffff04edffffecedffff46f9ffff2afaffff26440000
+>>>>>>> Sylvester
+=======
       m_ExpandedIDs: d4e2ffffd8e2ffffdce2ffffdee2ffff8ee3ffff92e3ffff9ae3ffff9ce3ffffdce3ffff12e7ffffd44a0000fe4a0000
+>>>>>>> Meyer
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -791,15 +1665,91 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_WindowGUID: 9e45ebcd25862fc4c8a922a794a26695
+--- !u!114 &16
+=======
+--- !u!114 &17
+>>>>>>> Meyer
+=======
+  m_WindowGUID: ccd5b38afeb88f04585407b358284833
+--- !u!114 &18
+>>>>>>> Sylvester
+=======
+    x: 8
+    y: 579
+    width: 900
+    height: 454
+  m_ViewDataDictionary: {fileID: 0}
+  m_VSyncEnabled: 0
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -450
+    m_HBaseRangeMax: 450
+    m_VBaseRangeMin: -218.5
+    m_VBaseRangeMax: 218.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 900
+      height: 437
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 450, y: 218.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -450
+      y: -218.5
+      width: 900
+      height: 437
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 900, y: 454}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+--- !u!114 &17
+>>>>>>> Bond-Harris
+=======
   m_WindowGUID: 963243674d87f7840a385ed6fdc414e9
 --- !u!114 &17
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -820,6 +1770,38 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 384
+    y: 81
+<<<<<<< HEAD
+    width: 1140
+    height: 568
+=======
+    width: 504
+    height: 607
+>>>>>>> Bond-Harris
+=======
+    x: 248
+    y: 72.66667
+    width: 753
+    height: 337
+>>>>>>> Sylvester
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: ef896d43291ade643ae95c29314c5bf5
+=======
+    x: 8
+    y: 81
+    width: 900
+    height: 479
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 052c4c6d981105944a350bc4ab05152c
+>>>>>>> Bond-Harris
+=======
     x: 303.2
     y: 73.6
     width: 920
@@ -827,6 +1809,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: eabf828bb5f3bf14989cde8c70c18c84
+>>>>>>> Meyer
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -835,9 +1818,33 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+=======
+    m_Target: {x: -1.9690492, y: 3.01647, z: -20.608177}
+    speed: 2
+    m_Value: {x: -1.9054013, y: 3.0639167, z: -20.563583}
+>>>>>>> Bond-Harris
+=======
+    m_Target: {x: 0.8516213, y: 2.6173716, z: -19.745567}
+    speed: 2
+    m_Value: {x: 0.8516213, y: 2.6173716, z: -19.745567}
+>>>>>>> Sylvester
+=======
+    m_Target: {x: -2.501608, y: -0.24056977, z: -4.415288}
+    speed: 2
+    m_Value: {x: -2.501608, y: -0.24056977, z: -4.415288}
+>>>>>>> Bond-Harris
+=======
     m_Target: {x: 0.16156827, y: -1.7067862, z: -3.8359375}
     speed: 2
     m_Value: {x: 0.16156827, y: -1.7067862, z: -3.8359375}
+>>>>>>> Meyer
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -870,9 +1877,33 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+=======
+    m_Target: 10.341618
+    speed: 2
+    m_Value: 9.896285
+>>>>>>> Bond-Harris
+=======
+    m_Target: 16.226723
+    speed: 2
+    m_Value: 16.226723
+>>>>>>> Sylvester
+=======
+    m_Target: 11.627568
+    speed: 2
+    m_Value: 11.627568
+>>>>>>> Bond-Harris
+=======
     m_Target: 4.5106483
     speed: 2
     m_Value: 4.5106483
+>>>>>>> Meyer
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -898,7 +1929,24 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!114 &17
+=======
+    x: 0
+    y: 515.2
+    width: 1097
+    height: 270
+  m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
+>>>>>>> Meyer
+=======
+--- !u!114 &19
+>>>>>>> Sylvester
+=======
+--- !u!114 &18
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -919,10 +1967,30 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 384
+    y: 81
+<<<<<<< HEAD
+    width: 1140
+    height: 568
+=======
+    width: 504
+    height: 607
+>>>>>>> Bond-Harris
+=======
+    x: 248
+    y: 72.66667
+    width: 753
+    height: 337
+>>>>>>> Sylvester
+=======
     x: 303.2
     y: 73.6
     width: 920
     height: 423
+>>>>>>> Meyer
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -935,10 +2003,31 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_HBaseRangeMin: -570
+    m_HBaseRangeMax: 570
+    m_VBaseRangeMin: -275.5
+    m_VBaseRangeMax: 275.5
+=======
+    m_HBaseRangeMin: -252
+    m_HBaseRangeMax: 252
+    m_VBaseRangeMin: -295
+    m_VBaseRangeMax: 295
+>>>>>>> Bond-Harris
+=======
+    m_HBaseRangeMin: -376.5
+    m_HBaseRangeMax: 376.5
+    m_VBaseRangeMin: -160
+    m_VBaseRangeMax: 160
+>>>>>>> Sylvester
+=======
     m_HBaseRangeMin: -368
     m_HBaseRangeMax: 368
     m_VBaseRangeMin: -162.40001
     m_VBaseRangeMax: 162.40001
+>>>>>>> Meyer
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -956,30 +2045,103 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      width: 1140
+      height: 551
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 570, y: 275.5}
+=======
+      width: 504
+      height: 590
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 252, y: 295}
+>>>>>>> Bond-Harris
+=======
+      width: 753
+      height: 320
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 376.5, y: 160}
+>>>>>>> Sylvester
+=======
       width: 920
       height: 406
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 460, y: 203}
+>>>>>>> Meyer
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      x: -570
+      y: -275.5
+      width: 1140
+      height: 551
+=======
+      x: -252
+      y: -295
+      width: 504
+      height: 590
+>>>>>>> Bond-Harris
+=======
+      x: -376.5
+      y: -160
+      width: 753
+      height: 320
+>>>>>>> Sylvester
+=======
       x: -460
       y: -203
       width: 920
       height: 406
+>>>>>>> Meyer
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_LastWindowPixelSize: {x: 1140, y: 568}
+=======
+  m_LastWindowPixelSize: {x: 504, y: 607}
+>>>>>>> Bond-Harris
+=======
+  m_LastWindowPixelSize: {x: 1129.5, y: 505.5}
+>>>>>>> Sylvester
+=======
   m_LastWindowPixelSize: {x: 1150, y: 528.75}
+>>>>>>> Meyer
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!114 &18
+=======
+    x: 0
+    y: 515.2
+    width: 1097
+    height: 270
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -6540
 --- !u!114 &19
+>>>>>>> Meyer
+=======
+--- !u!114 &20
+>>>>>>> Sylvester
+=======
+--- !u!114 &19
+>>>>>>> Meyer
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1000,8 +2162,44 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 8
+    y: 718
+    width: 1366
+    height: 308
+=======
+    x: 1096.8
+    y: 73.6
+    width: 437
+    height: 712
+>>>>>>> Meyer
+=======
+    x: 0
+    y: 428.6667
+    width: 1003
+    height: 253
+>>>>>>> Sylvester
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+=======
+>>>>>>> Bond-Harris
+=======
     x: 0
     y: 515.2
     width: 1225
     height: 270
   m_ViewDataDictionary: {fileID: 0}
+>>>>>>> Meyer

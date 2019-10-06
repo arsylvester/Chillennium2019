@@ -9,8 +9,11 @@ public class Snake_Tail_Script : MonoBehaviour
     [SerializeField] Animator tail_anim;
     [SerializeField] float attack_time = 0.3f;
     [SerializeField] Transform detection_point;
+    [SerializeField] GameObject hitBox;
+    [SerializeField] GameObject head;
     float attack_timer;
     float wait_timer;
+    float hitBox_timer;
     [SerializeField]
     [ReadOnly]
     float idle_timer;
@@ -27,7 +30,7 @@ public class Snake_Tail_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (distance_to_player() < detection_radius)
+        if (distance_to_player() < detection_radius && head)
         {
             tail_anim.SetBool("Player_Too_Far", false);
             wait_timer = wait_time;
@@ -36,6 +39,7 @@ public class Snake_Tail_Script : MonoBehaviour
         else
         {
             tail_anim.SetBool("Player_Too_Far", true);
+            hitBox.SetActive(false);
         }
 
         if (wait_timer >= 0)
@@ -61,7 +65,9 @@ public class Snake_Tail_Script : MonoBehaviour
                 if (clip_name == "snake_tail_swipe")
                 {
                     attack_timer = attack_time;
+                    hitBox_timer = attack_time / 1.2f;
                     tail_anim.SetFloat("Attack_Timer", attack_time);
+                    hitBox.SetActive(true);
                 }
             }
             
@@ -71,6 +77,10 @@ public class Snake_Tail_Script : MonoBehaviour
         {
             attack_timer -= Time.deltaTime;
             tail_anim.SetFloat("Attack_Timer", attack_timer);
+            if(attack_timer < hitBox_timer)
+            {
+                hitBox.SetActive(false);
+            }
         }
         else
         {
@@ -87,22 +97,21 @@ public class Snake_Tail_Script : MonoBehaviour
                     }
                 }
             }
-            
-        }
+            if (player.transform.position.x < detection_point.position.x)
+            {
+                if (transform.localScale.x > 0)
+                {
+                    transform.localScale = new Vector3(-1 * transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                }
+            }
+            else if (player.transform.position.x > detection_point.position.x)
+            {
+                if (transform.localScale.x < 0)
+                {
+                    transform.localScale = new Vector3(-1 * transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                }
+            }
 
-        if (player.transform.position.x < detection_point.position.x)
-        {
-            if (transform.localScale.x > 0)
-            {
-                transform.localScale = new Vector3(-1 * transform.localScale.x, transform.localScale.y, transform.localScale.z);
-            }
-        }
-        else if (player.transform.position.x > detection_point.position.x)
-        {
-            if (transform.localScale.x < 0)
-            {
-                transform.localScale = new Vector3(-1 * transform.localScale.x, transform.localScale.y, transform.localScale.z);
-            }
         }
 
     }
