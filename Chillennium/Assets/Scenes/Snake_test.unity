@@ -142,10 +142,17 @@ MonoBehaviour:
   wait_time: 0.25
   tail_anim: {fileID: 1110413801}
   attack_time: 0.3
+  detection_point: {fileID: 1116336219}
   idle_timer: 0
 --- !u!95 &1110413801 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5198932168349262752, guid: 4955a2463b718054396bd1bebf4093d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 5198932169525210004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1116336219 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 507868168652715532, guid: 4955a2463b718054396bd1bebf4093d4,
     type: 3}
   m_PrefabInstance: {fileID: 5198932169525210004}
   m_PrefabAsset: {fileID: 0}
@@ -488,6 +495,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF_Snake_Tail
       objectReference: {fileID: 0}
+    - target: {fileID: 507868168652715532, guid: 4955a2463b718054396bd1bebf4093d4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 507868168652715532, guid: 4955a2463b718054396bd1bebf4093d4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7128162798597834484, guid: 4955a2463b718054396bd1bebf4093d4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -542,6 +559,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128162798597834484, guid: 4955a2463b718054396bd1bebf4093d4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1019071648801762742, guid: 4955a2463b718054396bd1bebf4093d4,
         type: 3}
