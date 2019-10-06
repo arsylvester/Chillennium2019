@@ -143,6 +143,7 @@ public class Player : MonoBehaviour
     public void dead()
     {
         print("YOU DIED");
+        Application.LoadLevel("You Tried");
     }
 
     public IEnumerator slowPlayer(float slowTime, float speedReduction)
