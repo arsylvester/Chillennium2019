@@ -6,6 +6,7 @@ sceneSetups:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Anim Testing/Snail Test.unity
 =======
 <<<<<<< HEAD
@@ -32,6 +33,9 @@ sceneSetups:
 =======
 - path: Assets/Scenes/Cameron Testing.unity
 >>>>>>> Meyer
+=======
+- path: Assets/Scenes/Snake_test.unity
+>>>>>>> Bond-Harris
   isLoaded: 1
   isActive: 1
   isSubScene: 0
