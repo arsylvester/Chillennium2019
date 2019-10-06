@@ -8,6 +8,7 @@ public class PlayerAnimation : MonoBehaviour
     public Player PlayerScript;
 
     private bool facingRight;
+    private bool hasSwitched = false;
     private float xAxis;
     private float yAxis;
 
@@ -32,6 +33,8 @@ public class PlayerAnimation : MonoBehaviour
     [SerializeField] Animator egg3AnimFront;
     [SerializeField] Animator egg3AnimSide;
     [SerializeField] Animator egg3AnimBack;
+    [SerializeField] Animator egg4AnimFront;
+    [SerializeField] Animator egg4AnimSide;
     [SerializeField] GameObject noEddFrontChick;
     [SerializeField] GameObject noEggSideChick;
     [SerializeField] GameObject noEggBackChick;
@@ -44,66 +47,125 @@ public class PlayerAnimation : MonoBehaviour
     [SerializeField] GameObject egg3FrontChick;
     [SerializeField] GameObject egg3SideChick;
     [SerializeField] GameObject egg3BackChick;
+    [SerializeField] GameObject egg4FrontChick;
+    [SerializeField] GameObject egg4SideChick;
     [SerializeField] ParticleSystem dashEffect;
     [SerializeField] float dashEffectDuration;
 
     // Start is called before the first frame update
     void Start()
     {
-        if(!dashEffect.isStopped)
+        frontChick = noEddFrontChick;
+        sideChick = noEggSideChick;
+        backChick = noEggBackChick;
+
+        animFront = noEggAnimFront;
+        animSide = noEggAnimSide;
+        animBack = noEggAnimBack;
+
+        if (!dashEffect.isStopped)
             dashEffect.Stop();
     }
 
     // Update is called once per frame
     void Update()
     {
-        switch(numEggs)
+        if (Input.GetKeyDown(KeyCode.Keypad0))
         {
-            case 1:
-                frontChick = egg1FrontChick;
-                sideChick = egg1SideChick;
-                backChick = egg1BackChick;
-
-                animFront = egg1AnimFront;
-                animSide = egg1AnimSide;
-                animBack = egg1AnimBack;
-
-                break;
-
-            case 2:
-                frontChick = egg2FrontChick;
-                sideChick = egg2SideChick;
-                backChick = egg2BackChick;
-
-                animFront = egg2AnimFront;
-                animSide = egg2AnimSide;
-                animBack = egg2AnimBack;
-
-                break;
-
-            case 3:
-                frontChick = egg3FrontChick;
-                sideChick = egg3SideChick;
-                backChick = egg3BackChick;
-
-                animFront = egg3AnimFront;
-                animSide = egg3AnimSide;
-                animBack = egg3AnimBack;
-
-                break;
-
-            default:
-                frontChick = noEddFrontChick;
-                sideChick = noEggSideChick;
-                backChick = noEggBackChick;
-
-                animFront = noEggAnimFront;
-                animSide = noEggAnimSide;
-                animBack = noEggAnimBack;
-
-                break;
+            numEggs = 0;
+            hasSwitched = false;
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            numEggs = 1;
+            hasSwitched = false;
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            numEggs = 2;
+            hasSwitched = false;
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad3))
+        {
+            numEggs = 3;
+            hasSwitched = false;
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad4))
+        {
+            numEggs = 4;
+            hasSwitched = false;
         }
 
+        if (!hasSwitched)
+        {
+            hasSwitched = true;
+
+            if (frontChick.activeSelf == true)
+                frontChick.SetActive(false);
+            if (sideChick.activeSelf == true)
+                sideChick.SetActive(false);
+            if (backChick.activeSelf == true)
+                backChick.SetActive(false);
+
+            switch (numEggs)
+            {
+                case 1:
+                    frontChick = egg1FrontChick;
+                    sideChick = egg1SideChick;
+                    backChick = egg1BackChick;
+
+                    animFront = egg1AnimFront;
+                    animSide = egg1AnimSide;
+                    animBack = egg1AnimBack;
+
+                    break;
+
+                case 2:
+                    frontChick = egg2FrontChick;
+                    sideChick = egg2SideChick;
+                    backChick = egg2BackChick;
+
+                    animFront = egg2AnimFront;
+                    animSide = egg2AnimSide;
+                    animBack = egg2AnimBack;
+
+                    break;
+
+                case 3:
+                    frontChick = egg3FrontChick;
+                    sideChick = egg3SideChick;
+                    backChick = egg3BackChick;
+
+                    animFront = egg3AnimFront;
+                    animSide = egg3AnimSide;
+                    animBack = egg3AnimBack;
+
+                    break;
+
+                case 4:
+                    frontChick = egg4FrontChick;
+                    sideChick = egg4SideChick;
+                    backChick = egg3BackChick;
+
+                    animFront = egg4AnimFront;
+                    animSide = egg4AnimSide;
+                    animBack = egg3AnimBack;
+
+                    break;
+
+                default:
+                    frontChick = noEddFrontChick;
+                    sideChick = noEggSideChick;
+                    backChick = noEggBackChick;
+
+                    animFront = noEggAnimFront;
+                    animSide = noEggAnimSide;
+                    animBack = noEggAnimBack;
+
+                    break;
+            }
+        }
+        
         xAxis = Input.GetAxis("Horizontal");
         yAxis = Input.GetAxis("Vertical");
 
