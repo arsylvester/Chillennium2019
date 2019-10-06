@@ -94,4 +94,9 @@ public class UIController : MonoBehaviour
     {
         m_bossHealth = newhealth;
     }
+
+    public void setNewBossHealth(Health newBoss)
+    {
+        boss = newBoss;
+    }
 }

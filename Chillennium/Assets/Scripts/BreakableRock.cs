@@ -6,10 +6,12 @@ using UnityEngine;
 public class BreakableRock : MonoBehaviour
 {
     [SerializeField] float respawnDelay = 8f;
+    [SerializeField] Sprite[] rockSprites;
     BoxCollider2D m_col;
     BoxTrigger m_boxTrigger;
     private float reactivation_timer = 0f;
     GameObject player;
+    int spriteIndex = 0;
 
     public void Awake()
     {
@@ -39,7 +41,8 @@ public class BreakableRock : MonoBehaviour
         //change sprites
         //turn off collision
         m_col.enabled = false;
-        GetComponent<Renderer>().enabled = false;
+        spriteIndex = 1;
+        changeSprite();
         respawn(respawnDelay);
     }
 
@@ -50,6 +53,7 @@ public class BreakableRock : MonoBehaviour
     public void respawn(float reactivation_time)
     {
         //play rock drop animation
+        spriteIndex = 0;
         //set activation timer
         reactivation_timer = reactivation_time;
     }
@@ -67,7 +71,12 @@ public class BreakableRock : MonoBehaviour
        // else
         {
             m_col.enabled = true;
-            GetComponent<Renderer>().enabled = true;
+            changeSprite();
         }
+    }
+
+    void changeSprite()
+    {
+        GetComponent<SpriteRenderer>().sprite = rockSprites[spriteIndex];
     }
 }

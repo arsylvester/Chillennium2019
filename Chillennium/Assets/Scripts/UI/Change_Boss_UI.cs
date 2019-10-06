@@ -10,11 +10,15 @@ public class Change_Boss_UI : MonoBehaviour
     [SerializeField]
     Sprite[] boss_sprites;
     [SerializeField]
+    Health m_newBoss;
+    [SerializeField]
     bool changeImages;
     [SerializeField]
     bool change_sprites;
     [SerializeField]
     bool disable_boss_UI = false;
+    [SerializeField]
+    bool change_bosses;
     BoxCollider2D m_col;
     UIController m_ui;
 
@@ -28,7 +32,7 @@ public class Change_Boss_UI : MonoBehaviour
         m_ui = FindObjectOfType<UIController>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         Debug.Log("collided");
         if (collision.CompareTag("Player"))
@@ -48,5 +52,9 @@ public class Change_Boss_UI : MonoBehaviour
             m_ui.changeBossSprites(boss_sprites);
         }
         m_ui.setBossUIEnabled(!disable_boss_UI);
+        if (change_bosses)
+        {
+            m_ui.setNewBossHealth(m_newBoss);
+        }
     }
 }
