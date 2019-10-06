@@ -8,6 +8,7 @@ sceneSetups:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/ABH_Test.unity
 =======
 - path: Assets/Scenes/Cameron Testing.unity
@@ -36,6 +37,9 @@ sceneSetups:
 =======
 - path: Assets/Scenes/LevelTwo.unity
 >>>>>>> Meyer
+=======
+- path: Assets/Scenes/Test_Scenes/CombatTesting.unity
+>>>>>>> Sylvester
   isLoaded: 1
   isActive: 1
   isSubScene: 0
