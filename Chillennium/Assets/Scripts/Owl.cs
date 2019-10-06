@@ -137,7 +137,7 @@ public class Owl : MonoBehaviour
 
     public void dead()
     {
-        Destroy(gameObject);
+        Application.LoadLevel("You Won");
     }
 
     public void hitPitFall()

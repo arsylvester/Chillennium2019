@@ -13,6 +13,8 @@ public class UIController : MonoBehaviour
     private Player player;
     private int player_max;
     private int player_current;
+    private bool dialogOpen = false;
+    private GameObject dboxOpened;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,11 @@ public class UIController : MonoBehaviour
         }
         UpdatePlayerUI();
         UpdateBossUI();
+
+        if(dialogOpen && Input.GetButtonDown("Interact"))
+        {
+            closedbox();
+        }
     }
     
     void UpdatePlayerUI()
@@ -98,5 +105,18 @@ public class UIController : MonoBehaviour
     public void setNewBossHealth(Health newBoss)
     {
         boss = newBoss;
+    }
+
+    public void openDialog(GameObject dbox)
+    {
+        dbox.SetActive(true);
+        dboxOpened = dbox;
+        dialogOpen = true;
+    }
+
+    public void closedbox()
+    {
+        dboxOpened.SetActive(false);
+        dialogOpen = false;
     }
 }

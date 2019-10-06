@@ -16,24 +16,12 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Sylvester
-=======
->>>>>>> Sylvester
-=======
->>>>>>> Sylvester
     y: 42.666668
     width: 1280
     height: 677.3334
   m_ShowMode: 4
   m_Title: 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,6 +85,10 @@ MonoBehaviour:
   m_RootView: {fileID: 6}
   m_MinSize: {x: 950, y: 300}
 >>>>>>> Bond-Harris
+=======
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> Stashed changes
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,6 +98,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +153,8 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
   m_EditorHideFlags: 1
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -171,68 +166,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     width: 1280
     height: 628
-  m_MinSize: {x: 679, y: 494}
-  m_MaxSize: {x: 14002, y: 14044}
-  vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 114
-=======
-=======
-    x: 900
->>>>>>> Bond-Harris
-=======
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-=======
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
->>>>>>> Bond-Harris
-  - {fileID: 3}
-  - {fileID: 5}
-  - {fileID: 4}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-<<<<<<< HEAD
->>>>>>> Meyer
-    y: 0
-=======
->>>>>>> Meyer
-=======
->>>>>>> Meyer
-    width: 1536
-    height: 731
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 13
---- !u!114 &3
-<<<<<<< HEAD
->>>>>>> Meyer
-=======
-    y: 0
-    width: 1904
-    height: 1021
-  m_MinSize: {x: 950, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &3
->>>>>>> Bond-Harris
-=======
   controlID: 51
 --- !u!114 &3
+<<<<<<< Updated upstream
 >>>>>>> Sylvester
 =======
 >>>>>>> Meyer
@@ -254,6 +202,8 @@ MonoBehaviour:
   controlID: 55
 --- !u!114 &3
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -262,6 +212,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307,11 +258,15 @@ MonoBehaviour:
 =======
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> Bond-Harris
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> Stashed changes
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,23 +291,16 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Sylvester
+=======
+>>>>>>> Stashed changes
     x: 1003
     y: 0
     width: 277
     height: 628
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
-<<<<<<< HEAD
->>>>>>> Sylvester
-=======
-    x: 1225
-    y: 0
-    width: 311
-    height: 731
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 14}
+<<<<<<< Updated upstream
 >>>>>>> Meyer
 =======
 >>>>>>> Sylvester
@@ -365,10 +313,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 14}
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,6 +357,8 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -415,6 +368,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -460,6 +414,9 @@ MonoBehaviour:
 =======
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> Bond-Harris
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> Stashed changes
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
@@ -467,12 +424,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> Sylvester
+=======
+>>>>>>> Stashed changes
     width: 248
     height: 356
 =======
@@ -486,6 +446,7 @@ MonoBehaviour:
   - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -547,6 +508,8 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -559,6 +522,7 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -596,6 +560,8 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Sylvester
+=======
+>>>>>>> Stashed changes
   m_Children: []
   m_Position:
     serializedVersion: 2
@@ -612,6 +578,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 18}
   m_Selected: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   m_LastSelected: 1
 <<<<<<< HEAD
@@ -672,6 +639,9 @@ MonoBehaviour:
 =======
   m_LastSelected: 0
 >>>>>>> Bond-Harris
+=======
+  m_LastSelected: 0
+>>>>>>> Stashed changes
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -681,6 +651,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -711,6 +682,8 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -718,6 +691,7 @@ MonoBehaviour:
   - {fileID: 7}
   - {fileID: 2}
   - {fileID: 8}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,10 +723,13 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -788,6 +765,10 @@ MonoBehaviour:
     width: 1904
     height: 1021
 >>>>>>> Bond-Harris
+=======
+    width: 1280
+    height: 678
+>>>>>>> Stashed changes
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -802,6 +783,7 @@ MonoBehaviour:
   m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -853,10 +835,14 @@ MonoBehaviour:
 =======
   m_Children: []
 >>>>>>> Bond-Harris
+=======
+  m_Children: []
+>>>>>>> Stashed changes
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -888,6 +874,9 @@ MonoBehaviour:
 =======
     width: 1904
 >>>>>>> Bond-Harris
+=======
+    width: 1280
+>>>>>>> Stashed changes
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -908,6 +897,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,11 +923,14 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Sylvester
+=======
+>>>>>>> Stashed changes
     y: 658
     width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1003,6 +996,8 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1012,6 +1007,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1019,6 +1015,9 @@ MonoBehaviour:
 =======
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
 >>>>>>> Bond-Harris
+=======
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> Stashed changes
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
@@ -1026,6 +1025,7 @@ MonoBehaviour:
   - {fileID: 5}
   m_Position:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1492,8 +1492,9 @@ MonoBehaviour:
 =======
 =======
 =======
+=======
+>>>>>>> Stashed changes
     x: 0
->>>>>>> Sylvester
     y: 0
     width: 1003
     height: 628
@@ -1510,13 +1511,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-<<<<<<< HEAD
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-=======
->>>>>>> Meyer
-=======
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> Sylvester
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
@@ -1528,6 +1523,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1571,6 +1567,8 @@ MonoBehaviour:
 =======
 >>>>>>> Meyer
 =======
+=======
+>>>>>>> Stashed changes
     width: 1003
     height: 356
   m_MinSize: {x: 406, y: 222}
@@ -1578,9 +1576,12 @@ MonoBehaviour:
   vertical: 0
   controlID: 53
 --- !u!114 &11
+<<<<<<< Updated upstream
 >>>>>>> Sylvester
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1592,6 +1593,7 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1818,6 +1820,8 @@ MonoBehaviour:
     width: 922
     height: 442
 =======
+=======
+>>>>>>> Stashed changes
   m_Children: []
   m_Position:
     serializedVersion: 2
@@ -1825,6 +1829,7 @@ MonoBehaviour:
     y: 0
     width: 755
     height: 356
+<<<<<<< Updated upstream
 >>>>>>> Sylvester
 =======
   m_Children: []
@@ -1835,6 +1840,8 @@ MonoBehaviour:
     width: 1142
     height: 587
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 16}
@@ -1845,6 +1852,7 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1860,6 +1868,8 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1885,6 +1895,7 @@ MonoBehaviour:
     width: 973
     height: 501
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1932,6 +1943,9 @@ MonoBehaviour:
 =======
 --- !u!114 &13
 >>>>>>> Bond-Harris
+=======
+--- !u!114 &13
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1952,6 +1966,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2003,10 +2018,13 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Sylvester
+=======
+>>>>>>> Stashed changes
     x: 0
     y: 428.6667
     width: 1003
     height: 253
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2044,6 +2062,8 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -2058,6 +2078,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2113,11 +2134,15 @@ MonoBehaviour:
 =======
     - Assets
 >>>>>>> Bond-Harris
+=======
+    - Assets
+>>>>>>> Stashed changes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/UI
+  - Assets
   m_LastFoldersGridSize: -1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2134,10 +2159,14 @@ MonoBehaviour:
 =======
   m_LastProjectPath: C:\Users\abond\OneDrive\Documents\Unity Projects\Chillennium2019\Chillennium
 >>>>>>> Bond-Harris
+=======
+  m_LastProjectPath: C:\Users\indya\Documents\GitHub\Chillennium2019\Chillennium
+>>>>>>> Stashed changes
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2241,6 +2270,11 @@ MonoBehaviour:
     m_LastClickedID: 21254
     m_ExpandedIDs: 00000000aa330000065300006a53000000ca9a3b
 >>>>>>> Bond-Harris
+=======
+    m_SelectedIDs: dc460000
+    m_LastClickedID: 18140
+    m_ExpandedIDs: 00000000dc4600005c47000024490000e24a0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2268,6 +2302,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2329,6 +2364,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000065300006a530000
 >>>>>>> Bond-Harris
+=======
+    m_ExpandedIDs: 00000000dc4600005c470000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2355,8 +2393,12 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
+=======
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> Stashed changes
     m_ExpandedInstanceIDs: c6230000
 =======
     m_HadKeyboardFocusLastEvent: 1
@@ -2377,6 +2419,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2426,6 +2469,9 @@ MonoBehaviour:
 =======
       m_ClientGUIView: {fileID: 0}
 >>>>>>> Bond-Harris
+=======
+      m_ClientGUIView: {fileID: 0}
+>>>>>>> Stashed changes
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2433,6 +2479,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2525,21 +2572,22 @@ MonoBehaviour:
 >>>>>>> Meyer
 =======
     m_ScrollPosition: {x: 0, y: 44}
+=======
+    m_ScrollPosition: {x: 0, y: 134.5}
+>>>>>>> Stashed changes
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
---- !u!114 &19
->>>>>>> Bond-Harris
-=======
->>>>>>> Sylvester
-=======
 --- !u!114 &14
+<<<<<<< Updated upstream
 >>>>>>> Meyer
 =======
 >>>>>>> Sylvester
 =======
 --- !u!114 &14
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2560,6 +2608,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2590,10 +2639,13 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Sylvester
+=======
+>>>>>>> Stashed changes
     x: 1003.3334
     y: 72.66667
     width: 275
     height: 609
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> Sylvester
@@ -2607,6 +2659,8 @@ MonoBehaviour:
 >>>>>>> Sylvester
 =======
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -2619,6 +2673,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2659,6 +2714,10 @@ MonoBehaviour:
   m_LastVerticalScrollValue: 0
 --- !u!114 &15
 >>>>>>> Bond-Harris
+=======
+  m_LastVerticalScrollValue: 0
+--- !u!114 &15
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2681,19 +2740,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
     x: 0
-<<<<<<< HEAD
-    y: 73.6
-    width: 303
-    height: 423
-=======
     y: 72.66667
     width: 248
     height: 337
->>>>>>> Sylvester
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2734,28 +2788,34 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: 0057ffff8057ffff326affffba6bffff326fffffbaa3ffff50a4ffff50a5fffff05e0000285f00006e6000000a6c0000986f0000
 >>>>>>> Bond-Harris
+=======
+      m_SelectedIDs: 4c660000
+      m_LastClickedID: 26188
+      m_ExpandedIDs: 70c8ffff88c8ffff32caffffdadcffffc8e7ffffaae8ffff28660000
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: No4
+        m_OriginalName: No4
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -15884
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2783,6 +2843,10 @@ MonoBehaviour:
   m_WindowGUID: 121086c3518af064dbea0adc328c4ea8
 --- !u!114 &16
 >>>>>>> Bond-Harris
+=======
+  m_WindowGUID: cd73fbb4cbf0db049862c0c59745d89f
+--- !u!114 &16
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2803,18 +2867,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> Sylvester
+=======
+>>>>>>> Stashed changes
     x: 248
     y: 72.66667
     width: 753
     height: 337
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_WindowGUID: b7da814b8ad2be74a8359d621bb6d9c6
@@ -2849,6 +2917,9 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 4b731a36e1bab2a46a93b2552c7ddea0
 >>>>>>> Bond-Harris
+=======
+  m_WindowGUID: 08339c80009f0574fb38f0951cafeb02
+>>>>>>> Stashed changes
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -2857,6 +2928,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2890,6 +2962,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 22.524439, y: 25.063173, z: -124.30469}
 >>>>>>> Bond-Harris
+=======
+    m_Target: {x: -2.87, y: 2.82, z: 0}
+    speed: 2
+    m_Value: {x: -2.87, y: 2.82, z: 0}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2922,6 +2999,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2955,6 +3033,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 15.749025
 >>>>>>> Bond-Harris
+=======
+    m_Target: 22
+    speed: 2
+    m_Value: 22
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2980,6 +3063,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3001,6 +3085,9 @@ MonoBehaviour:
 =======
 --- !u!114 &17
 >>>>>>> Bond-Harris
+=======
+--- !u!114 &17
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3021,6 +3108,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 303.2
@@ -3028,10 +3116,13 @@ MonoBehaviour:
     width: 920
     height: 423
 =======
+=======
+>>>>>>> Stashed changes
     x: 248
     y: 72.66667
     width: 753
     height: 337
+<<<<<<< Updated upstream
 >>>>>>> Sylvester
 =======
     x: 384
@@ -3039,6 +3130,8 @@ MonoBehaviour:
     width: 1140
     height: 568
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -3051,19 +3144,19 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
     m_HBaseRangeMin: -376.5
     m_HBaseRangeMax: 376.5
-=======
-    m_HBaseRangeMin: -284.33334
-    m_HBaseRangeMax: 284.33334
->>>>>>> Sylvester
     m_VBaseRangeMin: -160
     m_VBaseRangeMax: 160
+<<<<<<< Updated upstream
 =======
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
@@ -3088,6 +3181,8 @@ MonoBehaviour:
     m_VBaseRangeMin: -275.5
     m_VBaseRangeMax: 275.5
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -3105,6 +3200,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
       width: 920
@@ -3112,10 +3208,13 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 460, y: 203}
 =======
+=======
+>>>>>>> Stashed changes
       width: 753
       height: 320
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 376.5, y: 160}
+<<<<<<< Updated upstream
 >>>>>>> Sylvester
 =======
       width: 1140
@@ -3123,12 +3222,15 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 570, y: 275.5}
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -460
@@ -3136,10 +3238,13 @@ MonoBehaviour:
       width: 920
       height: 406
 =======
+=======
+>>>>>>> Stashed changes
       x: -376.5
       y: -160
       width: 753
       height: 320
+<<<<<<< Updated upstream
 >>>>>>> Sylvester
 =======
       x: -570
@@ -3147,10 +3252,13 @@ MonoBehaviour:
       width: 1140
       height: 551
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1150, y: 528.75}
@@ -3160,10 +3268,14 @@ MonoBehaviour:
 =======
   m_LastWindowPixelSize: {x: 1140, y: 568}
 >>>>>>> Bond-Harris
+=======
+  m_LastWindowPixelSize: {x: 1129.5, y: 505.5}
+>>>>>>> Stashed changes
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3193,6 +3305,9 @@ MonoBehaviour:
 =======
 --- !u!114 &18
 >>>>>>> Bond-Harris
+=======
+--- !u!114 &18
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3213,6 +3328,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3248,11 +3364,14 @@ MonoBehaviour:
   m_LastVerticalScrollValue: 0
 >>>>>>> Bond-Harris
 =======
+=======
+>>>>>>> Stashed changes
     x: 8
     y: 718
     width: 1366
     height: 308
   m_ViewDataDictionary: {fileID: 0}
+<<<<<<< Updated upstream
 >>>>>>> Sylvester
 =======
 >>>>>>> Meyer
@@ -3270,3 +3389,5 @@ MonoBehaviour:
     height: 308
   m_ViewDataDictionary: {fileID: 0}
 >>>>>>> Bond-Harris
+=======
+>>>>>>> Stashed changes

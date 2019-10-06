@@ -6,6 +6,9 @@ public class Interact : MonoBehaviour
 {
     public bool canInteract = false;
     private PlayerAnimation playAn;
+    [SerializeField] GameObject dNotEnough;
+    [SerializeField] GameObject Enough;
+    [SerializeField] UIController ui;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +25,10 @@ public class Interact : MonoBehaviour
             if(playAn.numEggs >= 4)
             {
                 Application.LoadLevel("LevelTwo");
+            }
+            else
+            {
+                ui.openDialog(dNotEnough);
             }
         }
     }
