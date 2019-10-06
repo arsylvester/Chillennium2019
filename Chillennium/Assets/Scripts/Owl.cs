@@ -66,7 +66,7 @@ public class Owl : MonoBehaviour
         StartCoroutine(approachPlayer());
     }
 
-    IEnumerator approachPlayer() //Oh, you appraoch me?
+    IEnumerator approachPlayer() //Oh, you approach me?
     {
         while (!attacking)
         {
