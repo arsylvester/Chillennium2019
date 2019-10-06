@@ -16,6 +16,8 @@ public class Turtle : MonoBehaviour
     [SerializeField] GameObject attackBox;
     [SerializeField] GameObject weakPoint;
     [SerializeField] GameObject spinHitBox;
+    [SerializeField] GameObject[] stuffToDisable;
+    [SerializeField] GameObject egg;
     private bool attacking = false;
     private Player player;
     private Health hp;
@@ -139,6 +141,11 @@ public class Turtle : MonoBehaviour
 
     public void dead()
     {
-        Destroy(gameObject);
+        foreach (GameObject obj in stuffToDisable)
+        {
+            obj.SetActive(false);
+        }
+        egg.SetActive(true);
+        this.enabled = false;
     }
 }
