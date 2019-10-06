@@ -3,6 +3,11 @@ sceneSetups:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Anim Testing/Snail Test.unity
 =======
 <<<<<<< HEAD
@@ -20,6 +25,21 @@ sceneSetups:
 =======
 - path: Assets/Anim Testing/Anim Test.unity
 >>>>>>> Kayden
+=======
+- path: Assets/Anim Testing/Snail Test.unity
+>>>>>>> Bond-Harris
+=======
+- path: Assets/Scenes/Turtle Testing.unity
+>>>>>>> Sylvester
+=======
+- path: Assets/Scenes/Cameron Testing.unity
+>>>>>>> Meyer
+=======
+- path: Assets/Scenes/Snake_test.unity
+>>>>>>> Bond-Harris
+=======
+- path: Assets/Scenes/Cameron Testing.unity
+>>>>>>> Meyer
   isLoaded: 1
   isActive: 1
   isSubScene: 0
