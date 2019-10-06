@@ -19,6 +19,9 @@ public class Owl : MonoBehaviour
     [SerializeField] GameObject attackBody;
     [SerializeField] GameObject attackBox;
     [SerializeField] GameObject weakPoint;
+    [SerializeField] GameObject owlDown;
+    [SerializeField] GameObject owlUp;
+    [SerializeField] GameObject owl50;
     private bool inPitFall = false;
     private bool attacking = false;
     private Player player;
@@ -42,6 +45,9 @@ public class Owl : MonoBehaviour
     IEnumerator featherAttack()
     {
         attackDetection.SetActive(false);
+        owlDown.SetActive(false);
+        owlUp.SetActive(true);
+        owlUp.GetComponent<Animator>().SetBool("Flap", true);
         Vector3 pointToAttackFrom = new Vector3(Random.Range(featherPointOne.position.x, featherPointTwo.position.x), Random.Range(featherPointOne.position.y, featherPointTwo.position.y), 0);
         float travelDistance = Vector3.Distance(transform.position, pointToAttackFrom);
         float startTime = Time.time;
@@ -57,17 +63,21 @@ public class Owl : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, pointToAttackFrom, fractionOfJourney);
             yield return new WaitForEndOfFrame();
         }
+        owlUp.SetActive(false);
+        owl50.SetActive(true);
         yield return new WaitForSecondsRealtime(featherThrowDelay);
         for(int x = -30; x <= 30; x += 15)
         {
             Instantiate(feather, throwFeatherSpawn.position, Quaternion.Euler(0,0,x));
         }
         attackDetection.SetActive(true);
+        owl50.SetActive(false);
         StartCoroutine(approachPlayer());
     }
 
     IEnumerator approachPlayer() //Oh, you approach me?
     {
+        owlDown.SetActive(true);
         while (!attacking)
         {
             Vector3 differenceVector = player.transform.position - attackDetection.transform.position;
@@ -88,11 +98,16 @@ public class Owl : MonoBehaviour
         normalBody.SetActive(false);
         attackDetection.SetActive(false);
         attackBody.SetActive(true);
+        owlDown.SetActive(false);
+        owlUp.SetActive(true);
+        owlUp.GetComponent<Animator>().SetBool("Flap", false);
         yield return new WaitForSecondsRealtime(strikeDelay);
         attackBox.SetActive(true);
         yield return new WaitForSecondsRealtime(.1f);
         attacking = false;
         attackBox.SetActive(false);
+        owlDown.SetActive(true);
+        owlUp.SetActive(false);
         if (inPitFall)
         {
             weakPoint.SetActive(true);
