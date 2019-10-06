@@ -15,7 +15,7 @@ public class ChangeMusicTrigger : MonoBehaviour
         m_source = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
