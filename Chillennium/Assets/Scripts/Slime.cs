@@ -7,6 +7,7 @@ public class Slime : MonoBehaviour
     [SerializeField] float slowLength = 3f;
     [SerializeField] float slowReduction = .5f;
     [SerializeField] float despawnRate = 1f;
+    [SerializeField] bool despawn = true;
 
     private float startTime;
     private SpriteRenderer sprite;
@@ -32,8 +33,11 @@ public class Slime : MonoBehaviour
     private void Update()
     {
         Color currentColor = sprite.color;
-        sprite.color = new Color(currentColor.r, currentColor.g, currentColor.b, despawnRate/(Time.time - startTime + despawnRate));
-        if(startTime + despawnRate < Time.time)
+        if (despawn)
+        {
+            sprite.color = new Color(currentColor.r, currentColor.g, currentColor.b, despawnRate/(Time.time - startTime + despawnRate));
+        }
+        if(startTime + despawnRate < Time.time && despawn)
         {
             Destroy(gameObject);
         }
