@@ -7,15 +7,26 @@ ScriptsOnlyBuild:
     - BreakableRock
     - ChangeMusicTrigger
     - Change_Boss_UI
+<<<<<<< HEAD
+    - CreditsMenu
+=======
     - DamageCollisionKnockback
+>>>>>>> Bond-Harris
     - DamageTriggerKnockback
     - Health
     - Player
     - PlayerAnimation
     - PlayerDamage
+<<<<<<< HEAD
+    - Slime
+    - Snail
+    - UIController
+    - mainMenu
+=======
     - Turtle
     - TurtleCollision
     - UIController
+>>>>>>> Bond-Harris
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.Experimental.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
@@ -37,6 +48,10 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+<<<<<<< HEAD
+    - UnityEngine.UI.Button
+=======
+>>>>>>> Bond-Harris
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -50,6 +65,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+<<<<<<< HEAD
     - Class: 28
       Script: {instanceID: 0}
     - Class: 48
@@ -73,6 +89,162 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 9814}
+    - Class: 114
+      Script: {instanceID: 9956}
+    - Class: 114
+      Script: {instanceID: 10110}
+    - Class: 114
+      Script: {instanceID: 10278}
+    - Class: 114
+      Script: {instanceID: 10710}
+    - Class: 114
+      Script: {instanceID: 10952}
+    - Class: 114
+      Script: {instanceID: 11202}
+    - Class: 114
+      Script: {instanceID: 11470}
+    - Class: 114
+      Script: {instanceID: 11610}
+    - Class: 114
+      Script: {instanceID: 11836}
+    - Class: 114
+      Script: {instanceID: 12048}
+    - Class: 114
+      Script: {instanceID: 12090}
+    - Class: 114
+      Script: {instanceID: 12482}
+    - Class: 114
+      Script: {instanceID: 12530}
+    - Class: 114
+      Script: {instanceID: 12628}
+    - Class: 114
+      Script: {instanceID: 14160}
+    - Class: 114
+      Script: {instanceID: 14162}
+    - Class: 114
+      Script: {instanceID: 14164}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Credits Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 10110}
+    - Class: 114
+      Script: {instanceID: 10710}
+    - Class: 114
+      Script: {instanceID: 11344}
+    - Class: 114
+      Script: {instanceID: 12048}
+    - Class: 114
+      Script: {instanceID: 12628}
+    - Class: 114
+      Script: {instanceID: 24206}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Snail Testing.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+=======
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+>>>>>>> Bond-Harris
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+<<<<<<< HEAD
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+=======
+>>>>>>> Bond-Harris
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+<<<<<<< HEAD
+=======
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+>>>>>>> Bond-Harris
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 9956}
+    - Class: 114
+      Script: {instanceID: 10110}
+    - Class: 114
+      Script: {instanceID: 10278}
+    - Class: 114
+      Script: {instanceID: 10710}
+    - Class: 114
+      Script: {instanceID: 10952}
+    - Class: 114
+      Script: {instanceID: 11150}
+    - Class: 114
+      Script: {instanceID: 11202}
+    - Class: 114
+      Script: {instanceID: 11470}
+    - Class: 114
+      Script: {instanceID: 11610}
+=======
       Script: {instanceID: 9726}
     - Class: 114
       Script: {instanceID: 9748}
@@ -94,9 +266,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10924}
     - Class: 114
       Script: {instanceID: 11096}
+>>>>>>> Bond-Harris
     - Class: 114
       Script: {instanceID: 11148}
     - Class: 114
+<<<<<<< HEAD
+      Script: {instanceID: 12048}
+    - Class: 114
+      Script: {instanceID: 12482}
+    - Class: 114
+      Script: {instanceID: 12530}
+    - Class: 114
+      Script: {instanceID: 12628}
+=======
       Script: {instanceID: 11418}
     - Class: 114
       Script: {instanceID: 11558}
@@ -114,6 +296,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12578}
     - Class: 114
       Script: {instanceID: 13064}
+>>>>>>> Bond-Harris
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -132,6 +315,48 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+<<<<<<< HEAD
+    Assets/Scenes/Title_Screen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9782}
+    - Class: 114
+      Script: {instanceID: 10110}
+    - Class: 114
+      Script: {instanceID: 10710}
+    - Class: 114
+      Script: {instanceID: 11344}
+    - Class: 114
+      Script: {instanceID: 12048}
+    - Class: 114
+      Script: {instanceID: 12628}
+    - Class: 114
+      Script: {instanceID: 22284}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+=======
+>>>>>>> Bond-Harris
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -453,12 +678,15 @@ ScriptsOnlyBuild:
     className: DamageTriggerKnockback
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
+=======
       Hash: 1f98c6cf1222a7f2394db935fd86eeb0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainCamera
   - hash:
       serializedVersion: 2
+>>>>>>> Bond-Harris
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -573,12 +801,15 @@ ScriptsOnlyBuild:
     className: Snail
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
+=======
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChangeMusicTrigger
   - hash:
       serializedVersion: 2
+>>>>>>> Bond-Harris
       Hash: 3b760e6526e13f7504f59e210145899a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -615,7 +846,11 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+<<<<<<< HEAD
+      Hash: 3720dfe2c91a797031d62a50dfea0203
+=======
       Hash: 8258d57db4728600f9ae15a001006c26
+>>>>>>> Bond-Harris
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BreakableRock
@@ -762,6 +997,40 @@ ScriptsOnlyBuild:
       Hash: 9a2704117aeddea5eae3e72769e5159a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
+<<<<<<< HEAD
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeMusicTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d1e7d3f49bb6517d84e0e0ff6f9a243b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Change_Boss_UI
+  - hash:
+      serializedVersion: 2
+      Hash: e517021a3fe0fc359ee085003342439f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: mainMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreditsMenu
+  platform: 5
+  scenePathNames:
+  - Assets/Scenes/Title_Screen.unity
+  - Assets/Scenes/Credits Menu.unity
+  - Assets/Scenes/Snail Testing.unity
+  - Assets/Scenes/ABH_Test.unity
+  playerPath: D:/Unity Projects/Chillennium2019/Chillennium/Builds/Chillennium.exe
+=======
     className: EnableTurtle
   - hash:
       serializedVersion: 2
@@ -773,3 +1042,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/LevelOne.unity
   playerPath: C:/Users/abond/Desktop/Chillennium/Chillennium.exe
+>>>>>>> Bond-Harris
