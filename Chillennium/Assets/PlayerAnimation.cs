@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour
 {
     public bool userInput;
+    public bool pecking;
     public Player PlayerScript;
 
     private bool facingRight;
@@ -96,6 +97,15 @@ public class PlayerAnimation : MonoBehaviour
             hasSwitched = false;
         }
 
+        if(PlayerScript.isAttacking)
+        {
+            pecking = true;
+        }
+        else
+        {
+            pecking = false;
+        }
+
         if (!hasSwitched)
         {
             hasSwitched = true;
@@ -177,6 +187,15 @@ public class PlayerAnimation : MonoBehaviour
                 animFront.SetBool("userInput", true);
             }
 
+            if(pecking)
+            {
+                animFront.SetBool("pecking", true);
+            }
+            else
+            {
+                animFront.SetBool("pecking", false);
+            }
+
             sideChick.SetActive(false);
             backChick.SetActive(false);
         }
@@ -186,6 +205,15 @@ public class PlayerAnimation : MonoBehaviour
             {
                 backChick.SetActive(true);
                 animBack.SetBool("userInput", true);
+            }
+
+            if (pecking)
+            {
+                animBack.SetBool("pecking", true);
+            }
+            else
+            {
+                animBack.SetBool("pecking", false);
             }
 
             frontChick.SetActive(false);
@@ -202,6 +230,15 @@ public class PlayerAnimation : MonoBehaviour
                 animSide.SetBool("userInput", true);
             }
 
+            if (pecking)
+            {
+                animSide.SetBool("pecking", true);
+            }
+            else
+            {
+                animSide.SetBool("pecking", false);
+            }
+
             frontChick.SetActive(false);
             backChick.SetActive(false);
         }
@@ -216,6 +253,15 @@ public class PlayerAnimation : MonoBehaviour
                 animSide.SetBool("userInput", true);
             }
 
+            if (pecking)
+            {
+                animSide.SetBool("pecking", true);
+            }
+            else
+            {
+                animSide.SetBool("pecking", false);
+            }
+
             frontChick.SetActive(false);
             backChick.SetActive(false);
         }
@@ -227,6 +273,15 @@ public class PlayerAnimation : MonoBehaviour
 
             if (PlayerScript.direct == Player.Direction.Down)
             {
+                if (pecking)
+                {
+                    animFront.SetBool("pecking", true);
+                }
+                else
+                {
+                    animFront.SetBool("pecking", false);
+                }
+
                 if (frontChick.activeSelf == false)
                     frontChick.SetActive(true);
 
@@ -235,6 +290,15 @@ public class PlayerAnimation : MonoBehaviour
             }
             else if (PlayerScript.direct == Player.Direction.Up)
             {
+                if (pecking)
+                {
+                    animBack.SetBool("pecking", true);
+                }
+                else
+                {
+                    animBack.SetBool("pecking", false);
+                }
+
                 if (backChick.activeSelf == false)
                     backChick.SetActive(true);
 
@@ -246,6 +310,15 @@ public class PlayerAnimation : MonoBehaviour
                 if (facingRight)
                     Flip();
 
+                if (pecking)
+                {
+                    animSide.SetBool("pecking", true);
+                }
+                else
+                {
+                    animSide.SetBool("pecking", false);
+                }
+
                 if (sideChick.activeSelf == false)
                     sideChick.SetActive(true);
 
@@ -256,6 +329,15 @@ public class PlayerAnimation : MonoBehaviour
             {
                 if (!facingRight)
                     Flip();
+
+                if (pecking)
+                {
+                    animSide.SetBool("pecking", true);
+                }
+                else
+                {
+                    animSide.SetBool("pecking", false);
+                }
 
                 if (sideChick.activeSelf == false)
                     sideChick.SetActive(true);
