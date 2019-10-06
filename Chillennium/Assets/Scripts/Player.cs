@@ -9,25 +9,27 @@ public class Player : MonoBehaviour
     [SerializeField] float dashLength = .25f;
     [SerializeField] float dashCoolDown = .1f;
     [SerializeField] float knockbackDamping = .1f;
-    public int damageDealt = 1;
     [SerializeField] BoxCollider2D HBoxUp;
     [SerializeField] BoxCollider2D HBoxDown;
     [SerializeField] BoxCollider2D HBoxLeft;
     [SerializeField] BoxCollider2D HBoxRight;
+
+    public int damageDealt = 1;
     public enum Direction {Up, Down, Left, Right}
     public Direction direct = Direction.Right;
-    private bool isAttacking = false;
+    public Animator anim;
     public bool dashing = false;
+    public bool slowed = false;
+
+    private bool isAttacking = false;
     private bool canDash = true;
     private float timeDashStarted = 0;
     private float dashX;
     private float dashY;
-    public bool slowed = false;
     private float lastMovedX = 0;
     private float lastMovedY = 0;
     private Rigidbody2D rb;
-
-    float angle;
+    private float angle;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +42,7 @@ public class Player : MonoBehaviour
     {
         float xAxis = Input.GetAxis("Horizontal");
         float yAxis = Input.GetAxis("Vertical");
+
         if (!dashing)
         {
             transform.position += Vector3.right * speed * xAxis * Time.deltaTime;
