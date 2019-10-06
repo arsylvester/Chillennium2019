@@ -2,6 +2,7 @@ sceneSetups:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Anim Testing/Snail Test.unity
 =======
 <<<<<<< HEAD
@@ -16,6 +17,9 @@ sceneSetups:
 =======
 - path: Assets/Scenes/Owl Testing.unity
 >>>>>>> Sylvester
+=======
+- path: Assets/Anim Testing/Anim Test.unity
+>>>>>>> Kayden
   isLoaded: 1
   isActive: 1
   isSubScene: 0
